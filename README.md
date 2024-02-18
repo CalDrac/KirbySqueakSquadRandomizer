@@ -1,1 +1,3 @@
 # KirbySqueakSquadRandomizer
+
+Yes.
