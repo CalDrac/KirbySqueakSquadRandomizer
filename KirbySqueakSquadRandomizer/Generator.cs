@@ -108,7 +108,7 @@ namespace KirbySqueakSquadRandomizer
             File.WriteAllBytes(selectedFileName + "\\KSS_rando.nds", otherData);
             Console.WriteLine(otherData);
 
-            MessageBox.Show("File generated");
+            MessageBox.Show("File generated" + selectedFileName + "\\KSS_rando.nds");
             return true;
         }
 
