@@ -1,0 +1,25 @@
+﻿<Window x:Class="KirbySqueakSquadRandomizer.ArchipelagoSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KirbySqueakSquadRandomizer"
+        mc:Ignorable="d"
+        Title="Archipelago" Height="768" Width="1024">
+    <Grid Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1024"/>
+            <ColumnDefinition Width="768"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="URL" HorizontalAlignment="Left" Margin="69,90,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ServerName" HorizontalAlignment="Left" Margin="142,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="69,160,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Password" HorizontalAlignment="Left" Margin="142,164,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="File" HorizontalAlignment="Left" Margin="69,199,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="RomPath" Content="Select your rom file" HorizontalAlignment="Left" Margin="142,199,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="267,202,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="69,128,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Username" HorizontalAlignment="Left" Margin="142,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Generate" HorizontalAlignment="Left" Margin="380,321,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Click="ButtonGenerate_Click"/>
+    </Grid>
+</Window>

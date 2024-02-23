@@ -1,0 +1,716 @@
+[
+  {
+    "name": "Beginning Notes",
+    "adress": "107EA5D",
+    "itemId": "34",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Fire scroll",
+    "adress": "10A748D",
+    "itemId": "1C",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Sound player",
+    "adress": "10AC09D",
+    "itemId": "05",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Green",
+    "adress": "10D085D",
+    "itemId": "48",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_1",
+    "adress": "10D50CD",
+    "itemId": "64",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Prism Plains key",
+    "adress": "10D9C2D",
+    "itemId": "0E",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Copy palette 1",
+    "adress": "10E9C8D",
+    "itemId": "58",
+    "progressionType": "filler"
+  },
+  {
+    "name": "King Dedede badge",
+    "adress": "114162D",
+    "itemId": "3E",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_2",
+    "adress": "112A01D",
+    "itemId": "71",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Vitality half_1",
+    "adress": "1131CAD",
+    "itemId": "06",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Animal scroll",
+    "adress": "146C45D",
+    "itemId": "30",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Kirby's Sounds",
+    "adress": "14732AD",
+    "itemId": "3A",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Star seal 1",
+    "adress": "147836D",
+    "itemId": "00",
+    "progressionType": "progression"
+  },
+  {
+    "name": "Citrus",
+    "adress": "14D9418",
+    "itemId": "55",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Ghost medal_1",
+    "adress": "14DC85D",
+    "itemId": "15",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Wheel scroll",
+    "adress": "1535B78",
+    "itemId": "27",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Copy palette 2",
+    "adress": "153B25D",
+    "itemId": "5C",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_3",
+    "adress": "15448C8",
+    "itemId": "6F",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Cutter scroll",
+    "adress": "15A827D",
+    "itemId": "24",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Beam scroll",
+    "adress": "162622D",
+    "itemId": "1F",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_4",
+    "adress": "162985D",
+    "itemId": "6B",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Nature notch key",
+    "adress": "16336FD",
+    "itemId": "0F",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Mrs Moley badge",
+    "adress": "1679E2D",
+    "itemId": "3F",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_5",
+    "adress": "165981D",
+    "itemId": "6D",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Map_1",
+    "adress": "1665C2D",
+    "itemId": "5D",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Vitality half_2",
+    "adress": "16696CD",
+    "itemId": "07",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_6",
+    "adress": "17AC6ED",
+    "itemId": "72",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Grape",
+    "adress": "17B5A7D",
+    "itemId": "4D",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Spark scroll",
+    "adress": "17B98CD",
+    "itemId": "1E",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Familiar Notes",
+    "adress": "17DAA1D",
+    "itemId": "38",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Star seal 2",
+    "adress": "17E5C8D",
+    "itemId": "01",
+    "progressionType": "progression"
+  },
+  {
+    "name": "Graphic piece_7",
+    "adress": "1819A3D",
+    "itemId": "6A",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Map_2",
+    "adress": "1820E2D",
+    "itemId": "5E",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Ghost medal_2",
+    "adress": "18244BD",
+    "itemId": "16",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Lavender",
+    "adress": "184821D",
+    "itemId": "57",
+    "progressionType": "filler"
+  },
+  {
+    "name": "HiJump scroll",
+    "adress": "18544BD",
+    "itemId": "28",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Cushy cloud key",
+    "adress": "185A1ED",
+    "itemId": "10",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Tornado scroll",
+    "adress": "186AE1D",
+    "itemId": "20",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Mecha-Kracko badge",
+    "adress": "18C803D",
+    "itemId": "40",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Orange",
+    "adress": "189F72D",
+    "itemId": "08",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_8",
+    "adress": "18AA618",
+    "itemId": "4F",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Vitality half_3",
+    "adress": "18ADE6D",
+    "itemId": "75",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_9",
+    "adress": "18CA66D",
+    "itemId": "67",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Shadow",
+    "adress": "18DEECD",
+    "itemId": "53",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Bubble scroll",
+    "adress": "18E7CBD",
+    "itemId": "31",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Yellow",
+    "adress": "19022AD",
+    "itemId": "46",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Star seal 3",
+    "adress": "1906C9D",
+    "itemId": "02",
+    "progressionType": "progression"
+  },
+  {
+    "name": "Metal scroll",
+    "adress": "194471D",
+    "itemId": "32",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Copy palette 3",
+    "adress": "195BA7D",
+    "itemId": "5A",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Vitality half_4",
+    "adress": "19607BD",
+    "itemId": "09",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_10",
+    "adress": "198BC6D",
+    "itemId": "5F",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Map_3",
+    "adress": "199904D",
+    "itemId": "76",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Jam Jungle key",
+    "adress": "199903D",
+    "itemId": "11",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Laser scroll",
+    "adress": "19A321D",
+    "itemId": "25",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Yadgain badge",
+    "adress": "1A0D02D",
+    "itemId": "41",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Ice scroll",
+    "adress": "19F18AD",
+    "itemId": "1D",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Party Notes",
+    "adress": "19F56AD",
+    "itemId": "33",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Ghost medal_3",
+    "adress": "1A004FD",
+    "itemId": "17",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Parasol scroll",
+    "adress": "1A21C9D",
+    "itemId": "3B",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Enemy Sounds",
+    "adress": "1A264ED",
+    "itemId": "21",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Star seal 4",
+    "adress": "1A2B10D",
+    "itemId": "03",
+    "progressionType": "progression"
+  },
+  {
+    "name": "Ivory",
+    "adress": "1A46C7D",
+    "itemId": "54",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_11",
+    "adress": "1A4F6BD",
+    "itemId": "73",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Hammer scroll",
+    "adress": "1A54F5D",
+    "itemId": "22",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_12",
+    "adress": "1A6AE5D",
+    "itemId": "69",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Ninja scroll",
+    "adress": "1A6AE8D",
+    "itemId": "2C",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Vitality half_5",
+    "adress": "1A6AE7D",
+    "itemId": "0A",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Secret Map_4",
+    "adress": "1AB462D",
+    "itemId": "60",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Red",
+    "adress": "1AB769D",
+    "itemId": "47",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Vocal Volcano key",
+    "adress": "1ABC50D",
+    "itemId": "12",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Bohboh badge",
+    "adress": "1AFB06D",
+    "itemId": "42",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Copy palette 4",
+    "adress": "1AD8A2D",
+    "itemId": "2A",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Sleep scroll",
+    "adress": "1ADCC28",
+    "itemId": "59",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Ghost medal_4",
+    "adress": "1AE646D",
+    "itemId": "18",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Sound Effects",
+    "adress": "1B2B2ED",
+    "itemId": "74",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_13",
+    "adress": "1B3681D",
+    "itemId": "3C",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Sword scroll",
+    "adress": "1B3D85D",
+    "itemId": "2B",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Snow",
+    "adress": "1B5D61D",
+    "itemId": "49",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Star seal 5",
+    "adress": "1B65FCD",
+    "itemId": "04",
+    "progressionType": "progression"
+  },
+  {
+    "name": "Fighter scroll",
+    "adress": "1B932CD",
+    "itemId": "2D",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_14",
+    "adress": "1BA6E9E",
+    "itemId": "6E",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Vitality half_6",
+    "adress": "1BAED7D",
+    "itemId": "0B",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Happy Notes",
+    "adress": "1BB3ADD",
+    "itemId": "35",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Chalk",
+    "adress": "1BCEC5D",
+    "itemId": "52",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Ice Island key",
+    "adress": "1BDB2DD",
+    "itemId": "13",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_15",
+    "adress": "1BF2C2D",
+    "itemId": "66",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Cupid scroll",
+    "adress": "1BFB428",
+    "itemId": "5B",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Copy palette 5",
+    "adress": "1C03C2D",
+    "itemId": "23",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Daroach badge",
+    "adress": "1C4782D",
+    "itemId": "43",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Cherry",
+    "adress": "1C150ED",
+    "itemId": "51",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Map_5",
+    "adress": "1C3123D",
+    "itemId": "61",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Ghost medal_5",
+    "adress": "1C34C28",
+    "itemId": "19",
+    "progressionType": "filler"
+  },
+  {
+    "name": "White",
+    "adress": "1C5BE4D",
+    "itemId": "3D",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Sounds",
+    "adress": "1C678BD",
+    "itemId": "56",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Throw scroll",
+    "adress": "1C6BC7D",
+    "itemId": "2E",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Sapphire",
+    "adress": "1C8EE8D",
+    "itemId": "4C",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_16",
+    "adress": "1C996CD",
+    "itemId": "6C",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Ghost medal_6",
+    "adress": "1C9DE2D",
+    "itemId": "1A",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Graphic piece_17",
+    "adress": "1CB04CD",
+    "itemId": "36",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Spunky Notes",
+    "adress": "1CB5D5D",
+    "itemId": "26",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Bomb scroll",
+    "adress": "1CBB01D",
+    "itemId": "65",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Ocean",
+    "adress": "1CDA49D",
+    "itemId": "4B",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Magic scroll",
+    "adress": "1CE68FD",
+    "itemId": "2F",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Secret Sea key",
+    "adress": "1CEB8BD",
+    "itemId": "14",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Chocolate",
+    "adress": "1CFBA2D",
+    "itemId": "50",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Meta Knight badge",
+    "adress": "1D91E28",
+    "itemId": "44",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Map_6",
+    "adress": "1D8CC2D",
+    "itemId": "62",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_18",
+    "adress": "1D5D01D",
+    "itemId": "68",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Vitality half_7",
+    "adress": "1D6006D",
+    "itemId": "0C",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Graphic piece_19",
+    "adress": "1DF421D",
+    "itemId": "70",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Battle Notes",
+    "adress": "1DBA88D",
+    "itemId": "37",
+    "progressionType": "filler"
+  },
+  {
+    "name": "UFO scroll",
+    "adress": "1DCA13D",
+    "itemId": "29",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Emerald",
+    "adress": "1E1D42D",
+    "itemId": "4E",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Map_7",
+    "adress": "1E28C7D",
+    "itemId": "63",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Ghost medal_7",
+    "adress": "1E2C65D",
+    "itemId": "1B",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Carbon",
+    "adress": "1E5A8AD",
+    "itemId": "4A",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Secret Notes",
+    "adress": "1E77A1D",
+    "itemId": "39",
+    "progressionType": "filler"
+  },
+  {
+    "name": "Vitality half_8",
+    "adress": "1E3D88D",
+    "itemId": "0D",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Dark Nebula badge",
+    "adress": "1E98C2D",
+    "itemId": "45",
+    "progressionType": "filler"
+  }
+]

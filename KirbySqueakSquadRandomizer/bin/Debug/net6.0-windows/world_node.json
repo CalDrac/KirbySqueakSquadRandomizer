@@ -1,0 +1,50 @@
+{
+  "PrismPlains": {
+    "name": "World 1"
+  },
+  "PrismPlainsEX": {
+    "name": "World 1 EX"
+  },
+  "NatureNotch": {
+    "name": "World 2"
+  },
+  "NatureNotchEX": {
+    "name": "World 2 EX"
+  },
+  "Hub": {
+    "name": "Hub"
+  },
+  "CushyCloud": {
+    "name": "World 3"
+  },
+  "CushyCloudEX": {
+    "name": "World 3 EX"
+  },
+  "JamJungle": {
+    "name": "World 4"
+  },
+  "JamJungleEX": {
+    "name": "World 4 EX"
+  },
+  "VocalVolcano": {
+    "name": "World 5"
+  },
+  "VocalVolcanoEX": {
+    "name": "World 5 EX"
+  },
+  "IceIsland": {
+    "name": "World 6"
+  },
+  "IceIslandEX": {
+    "name": "World 6 EX"
+  },
+  "SecretSea": {
+    "name": "World 7"
+  },
+  "SecretSeaEX": {
+    "name": "World 7 EX"
+  },
+  "GambleGalaxy": {
+    "name": "World 8"
+  }
+}

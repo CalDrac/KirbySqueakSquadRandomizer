@@ -1,0 +1,20 @@
+﻿<Window x:Class="KirbySqueakSquadRandomizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KirbySqueakSquadRandomizer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="251" Width="638">
+    <Grid Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="497*"/>
+            <ColumnDefinition Width="141*"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton x:Name="RadioButtonClassic" Content="Classic" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="278,109,0,0" IsChecked="True"/>
+        <RadioButton x:Name="RadioButtonArchipelago" Content="Archipelago" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="278,140,0,0" IsEnabled="False" />
+        <Label Content="Kirby Squeak Squad Randomizer tool" Margin="216,32,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button x:Name="ButtonNext" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Bottom" RenderTransformOrigin="0.712,-1.771" Margin="305,0,0,32" Click="Button_Click"/>
+
+    </Grid>
+</Window>

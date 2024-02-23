@@ -1,0 +1,22 @@
+﻿<Window x:Class="KirbySqueakSquadRandomizer.ClassicSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KirbySqueakSquadRandomizer"
+        mc:Ignorable="d"
+        Title="ClassicSettings" Height="768" Width="1024">
+    <Grid Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1024"/>
+            <ColumnDefinition Width="768"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="File name :" HorizontalAlignment="Left" Margin="81,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelFilename" Content="No file selected" HorizontalAlignment="Left" Margin="150,72,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BrowseButton" Content="Browse ..." HorizontalAlignment="Left" Margin="398,72,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="Options" HorizontalAlignment="Left" Margin="450,22,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="GenerateButton" Content="Generate" HorizontalAlignment="Left" Margin="380,188,0,0" VerticalAlignment="Top" Click="GenerateButton_Click"/>
+
+
+    </Grid>
+</Window>
