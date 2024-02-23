@@ -134,7 +134,7 @@ namespace KirbySqueakSquadRandomizer
         private static List<Item> getAllItems()
         {
             var items = new List<Item>();
-            return LoadJsonItem("item_data.json");
+            return LoadJsonItem("Data\\item_data.json");
             
         }
 
@@ -150,7 +150,7 @@ namespace KirbySqueakSquadRandomizer
         private static List<Region> getAllRegions()
         {
             regions = new List<Region>();
-            LoadJsonRegion("world_path.json");
+            LoadJsonRegion("Data\\world_path.json");
             return regions;
         }
 
@@ -167,7 +167,7 @@ namespace KirbySqueakSquadRandomizer
         private static List<Location> getAllLocations()
         {
             locations = new List<Location>();
-            LoadJsonLocation("item_source.json");
+            LoadJsonLocation("Data\\item_source.json");
             return locations;
         }
 
