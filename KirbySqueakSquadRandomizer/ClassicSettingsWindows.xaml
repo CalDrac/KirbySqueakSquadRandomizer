@@ -5,17 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KirbySqueakSquadRandomizer"
         mc:Ignorable="d"
-        Title="ClassicSettings" Height="768" Width="1024">
-    <Grid Margin="0,0,0,-6">
+        Title="ClassicSettings" Height="243" Width="485">
+    <Grid Margin="0,0,4,6">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1024"/>
-            <ColumnDefinition Width="768"/>
+            <ColumnDefinition Width="485"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="539"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="382.168"/>
+            <ColumnDefinition Width="71.591"/>
+            <ColumnDefinition Width="314.241"/>
         </Grid.ColumnDefinitions>
-        <Label Content="File name :" HorizontalAlignment="Left" Margin="81,72,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelFilename" Content="No file selected" HorizontalAlignment="Left" Margin="150,72,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="BrowseButton" Content="Browse ..." HorizontalAlignment="Left" Margin="398,72,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label Content="Options" HorizontalAlignment="Left" Margin="450,22,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="GenerateButton" Content="Generate" HorizontalAlignment="Left" Margin="380,188,0,0" VerticalAlignment="Top" Click="GenerateButton_Click"/>
+        <Label Content="File name :" HorizontalAlignment="Left" Margin="81,72,0,0" VerticalAlignment="Top" Height="26" Width="67"/>
+        <Label x:Name="labelFilename" Content="No file selected" HorizontalAlignment="Left" Margin="150,72,0,0" VerticalAlignment="Top" Width="231" Height="26"/>
+        <Button x:Name="BrowseButton" Content="Browse ..." HorizontalAlignment="Left" Margin="386,75,0,0" VerticalAlignment="Top" Click="Button_Click" Height="20" Width="53"/>
+        <Label Content="Options" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Height="26" Width="52"/>
+        <Button x:Name="GenerateButton" Content="Generate" HorizontalAlignment="Center" Margin="0,189,0,0" VerticalAlignment="Top" Click="GenerateButton_Click" Height="20" Width="52"/>
 
 
     </Grid>

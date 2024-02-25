@@ -11,14 +11,12 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Markup;
 
 namespace KirbySqueakSquadRandomizer
 {
     internal class Generator
     {
-        static List<Location> locations;
-        static List<Item> items;
-        static List<Region> regions;
         public Generator() { }
 
         internal static void generateNewRomArchipelago(string server, string user, string password, string path)
@@ -26,31 +24,32 @@ namespace KirbySqueakSquadRandomizer
             //Connexion AP et remplacement des items
         }
 
-        internal static Boolean generateNewRomClassic(Options opt, string path)
+        internal static Boolean generateNewRomClassic(Options opt)
         {
-           return GenerateRom(path);
+           return GenerateRom(opt);
         }
 
-        private static Boolean GenerateRom(string path)
+        private static Boolean GenerateRom(Options opt)
         {
-            return randomize(path);
+            return randomize(opt);
         }
 
-        static Boolean randomize(string path)
+        static Boolean randomize(Options opt)
         {
             //get all items
             //get all locations
-            //deposer les items de progression en 1er ?
-            var oldItems = getAllItems();
-            items = getAllItems();
-            var newItems = getAllItems();
-            locations = getAllLocations();
-            regions = getAllRegions();
+            //deposer les items requis en 1er 
+            var items = LoadJson<Item>("Data\\item_data.json",new Item());
+            var newItems = LoadJson<Item>("Data\\item_data.json", new Item());
+            var locations = LoadJson<Location>("Data\\item_source.json", new Location());
+            var regions = LoadJson<Region>("Data\\world_path.json", new Region());
+
             var rnd = new Random();
             var randLocations = locations.OrderBy(item => rnd.Next()).ToList();
 
             List<String> reqItemsStr = getRequiredItems(regions);
             var requiredItems = items.Where(i=>reqItemsStr.Contains(i.Name)).ToList();
+
             //placement des items required
             for (int i = 0; i < requiredItems.Count; i++)
             {
@@ -71,7 +70,7 @@ namespace KirbySqueakSquadRandomizer
                 }
                 else
                 {
-                    Console.WriteLine("ERROR GENERATION REQ ITEMS");
+                    MessageBox.Show("ERROR GENERATION");
                     throw new Exception();
                 }
             }
@@ -81,10 +80,9 @@ namespace KirbySqueakSquadRandomizer
                 newItems[indexToModify].Name = items[i].Name;
                 newItems[indexToModify].ItemId = items[i].ItemId;
             }
-            Console.WriteLine("GEN FINIE");
 
             //remplacement des ID des newItems aux adresses des oldItems
-            byte[] otherData = File.ReadAllBytes(path);
+            byte[] otherData = File.ReadAllBytes(opt.path);
 
             foreach (var item in newItems)
             {
@@ -92,8 +90,12 @@ namespace KirbySqueakSquadRandomizer
                 var val = Convert.ToByte(item.ItemId, 16);
                 otherData[adr] = val;
             }
+            /*
+            if (opt.isBossRandomized) { 
+                //randomize boss locations sauf W8 ?
+            }
+            */
             CommonOpenFileDialog openFileDialog1 = new CommonOpenFileDialog();
-
             openFileDialog1.InitialDirectory = "c:\\";
             openFileDialog1.IsFolderPicker = true;
 
@@ -103,21 +105,15 @@ namespace KirbySqueakSquadRandomizer
                 return false;
             }
             
-
             string selectedFileName = openFileDialog1.FileName;
             File.WriteAllBytes(selectedFileName + "\\KSS_rando.nds", otherData);
-            Console.WriteLine(otherData);
-
-            MessageBox.Show("File generated" + selectedFileName + "\\KSS_rando.nds");
+            MessageBox.Show("File generated " + selectedFileName + "\\KSS_rando.nds");
             return true;
         }
-
-
 
         private static List<string> getRequiredItems(List<Region> regions)
         {
             List<string> items = new List<string>();
-
             foreach (var region in regions)
             {
                 foreach (var requiredItem in region.requiredItems) {
@@ -131,56 +127,16 @@ namespace KirbySqueakSquadRandomizer
             return items;
         }
 
-        private static List<Item> getAllItems()
+        public static List<T> LoadJson<T>(string file, T type)
         {
-            var items = new List<Item>();
-            return LoadJsonItem("Data\\item_data.json");
-            
-        }
-
-        private static List<Item> LoadJsonItem(string v)
-        {
-            using (StreamReader r = new StreamReader(v))
-            {
-                string json = r.ReadToEnd();
-                return JsonConvert.DeserializeObject<List<Item>>(json);
-            }
-        }
-
-        private static List<Region> getAllRegions()
-        {
-            regions = new List<Region>();
-            LoadJsonRegion("Data\\world_path.json");
-            return regions;
-        }
-
-        private static void LoadJsonRegion(string v)
-        {
-            using (StreamReader r = new StreamReader(v))
-            {
-                string json = r.ReadToEnd();
-                regions = JsonConvert.DeserializeObject<List<Region>>(json);
-                Console.WriteLine(regions.Count);
-            }
-        }
-
-        private static List<Location> getAllLocations()
-        {
-            locations = new List<Location>();
-            LoadJsonLocation("Data\\item_source.json");
-            return locations;
-        }
-
-        public static void LoadJsonLocation(string file)
-        {
+            List<T> returnList = new List<T>();
             using (StreamReader r = new StreamReader(file))
             {
                 string json = r.ReadToEnd();
-                locations = JsonConvert.DeserializeObject<List<Location>>(json);
-                Console.WriteLine(locations.Count);
+                returnList = JsonConvert.DeserializeObject<List<T>>(json);
             }
-
+            return returnList;
         }
-
+        
     }
 }

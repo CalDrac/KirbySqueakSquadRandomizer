@@ -48,15 +48,24 @@ namespace KirbySqueakSquadRandomizer
 
         private void GenerateButton_Click(object sender, RoutedEventArgs e)
         {
+            var opt = new Options();
             if (string.IsNullOrEmpty(romPath))
             {
                 MessageBox.Show("Select a ROM");
                 return;
             }
-            if (Generator.generateNewRomClassic(new Options(), romPath))
+            SetOptions(opt);
+            if (Generator.generateNewRomClassic(opt))
             {
                 this.Hide();
             }
+
+        }
+
+        private void SetOptions(Options opt)
+        {
+            opt.path = romPath;
+            opt.isBossRandomized = false;
         }
     }
 }
