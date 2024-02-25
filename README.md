@@ -1,6 +1,6 @@
 # KirbySqueakSquadRandomizer
 
-Yes.
+Randomizes items contained in chests, except for the strawberry shortcake, the goal of the game.
 
 # To use the randomizer
 
