@@ -2,6 +2,14 @@
 
 Randomizes items contained in chests, except for the strawberry shortcake, the goal of the game.
 
+I have ideas to add randomizing options, but I don't have the knowledge in NDS rom structure to implement them.
+If you know : 
+- World structure
+- Level structure
+- How to add an item
+
+Feel free to contact me : caldrac on discord
+
 # To use the randomizer
 
 Download and extract the lastest release or build the code
