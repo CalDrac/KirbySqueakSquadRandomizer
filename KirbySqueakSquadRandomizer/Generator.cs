@@ -39,6 +39,8 @@ namespace KirbySqueakSquadRandomizer
             //get all items
             //get all locations
             //deposer les items requis en 1er 
+            var spoilerLog = "New item".PadRight(20) + " | Old item \n";
+            var staticItems = LoadJson<Item>("Data\\item_data.json", new Item());
             var items = LoadJson<Item>("Data\\item_data.json",new Item());
             var newItems = LoadJson<Item>("Data\\item_data.json", new Item());
             var locations = LoadJson<Location>("Data\\item_source.json", new Location());
@@ -83,9 +85,11 @@ namespace KirbySqueakSquadRandomizer
 
             //remplacement des ID des newItems aux adresses des oldItems
             byte[] otherData = File.ReadAllBytes(opt.path);
-
+            
             foreach (var item in newItems)
             {
+                string oldItemName = staticItems.First(x => x.Adress == item.Adress).Name;
+                spoilerLog += item.Name.PadRight(20) + " | " + locations.First(x => x.name == oldItemName).nodeId + " - " + oldItemName + "\n";
                 var adr = Convert.ToInt32(item.Adress, 16);
                 var val = Convert.ToByte(item.ItemId, 16);
                 otherData[adr] = val;
@@ -108,6 +112,8 @@ namespace KirbySqueakSquadRandomizer
             string selectedFileName = openFileDialog1.FileName;
             File.WriteAllBytes(selectedFileName + "\\KSS_rando.nds", otherData);
             MessageBox.Show("File generated " + selectedFileName + "\\KSS_rando.nds");
+
+            File.WriteAllBytes(selectedFileName + "\\KSS_rando_spoiler.txt", Encoding.ASCII.GetBytes(spoilerLog));
             return true;
         }
 

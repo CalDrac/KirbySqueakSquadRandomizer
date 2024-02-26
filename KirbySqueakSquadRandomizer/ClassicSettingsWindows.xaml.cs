@@ -57,7 +57,9 @@ namespace KirbySqueakSquadRandomizer
             SetOptions(opt);
             if (Generator.generateNewRomClassic(opt))
             {
-                this.Hide();
+                
+                this.Close();
+                return;
             }
 
         }

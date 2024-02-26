@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KirbySqueakSquadRandomizer"
         mc:Ignorable="d"
-        Title="ClassicSettings" Height="243" Width="485">
-    <Grid Margin="0,0,4,6">
+        Title="ClassicSettings" Height="253" Width="485">
+    <Grid Margin="0,0,4,-1">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="485"/>
             <ColumnDefinition Width="0"/>
