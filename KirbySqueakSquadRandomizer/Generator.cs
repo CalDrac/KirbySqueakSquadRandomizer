@@ -49,10 +49,11 @@ namespace KirbySqueakSquadRandomizer
             
             var rnd = new Random();
             var randBossLevels = bossLevels.OrderBy(boss => rnd.Next()).ToList();
-            var spoilerLog = "New boss".PadRight(20) + " | Old boss \n";
+            var spoilerLog = "";
             byte[] otherData = File.ReadAllBytes(opt.path);
             if (opt.isBossW1_6Randomized)
             {
+                spoilerLog += "New boss".PadRight(20) + " | Old boss \n";
                 for (int j = 0; j < randBossLevels.Count; j++)
                 {
                     var bossLevel = randBossLevels[j];
@@ -66,8 +67,9 @@ namespace KirbySqueakSquadRandomizer
                         otherData[adr + i] = val;
                     }
                 }
+                spoilerLog += "\n\n";
             }
-            spoilerLog += "\n\n";
+            
             spoilerLog += "New item".PadRight(20) + " | Old item \n";
             List<String> reqItemsStr = getRequiredItems(regions);
             var requiredItems = items.Where(i => reqItemsStr.Contains(i.Name)).ToList();
