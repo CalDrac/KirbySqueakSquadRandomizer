@@ -34,3 +34,4 @@ Enjoy !
 - Kirby Squeak Squash, an incredible tool
 - Wikirby a wiki about Kirby
 - Dinopony
+- lucas5201
