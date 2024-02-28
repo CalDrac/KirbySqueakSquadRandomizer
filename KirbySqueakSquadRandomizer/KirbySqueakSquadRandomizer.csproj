@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\bossLevel_data.json" />
     <None Remove="Data\item_data.json" />
     <None Remove="Data\item_source.json" />
     <None Remove="Data\world_node.json" />
@@ -15,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Data\bossLevel_data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\item_data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -26,7 +26,7 @@ namespace KirbySqueakSquadRandomizer
 
         internal static Boolean generateNewRomClassic(Options opt)
         {
-           return GenerateRom(opt);
+            return GenerateRom(opt);
         }
 
         private static Boolean GenerateRom(Options opt)
@@ -39,19 +39,39 @@ namespace KirbySqueakSquadRandomizer
             //get all items
             //get all locations
             //deposer les items requis en 1er 
-            var spoilerLog = "New item".PadRight(20) + " | Old item \n";
+            
             var staticItems = LoadJson<Item>("Data\\item_data.json", new Item());
-            var items = LoadJson<Item>("Data\\item_data.json",new Item());
+            var items = LoadJson<Item>("Data\\item_data.json", new Item());
             var newItems = LoadJson<Item>("Data\\item_data.json", new Item());
             var locations = LoadJson<Location>("Data\\item_source.json", new Location());
             var regions = LoadJson<Region>("Data\\world_path.json", new Region());
-
+            var bossLevels = LoadJson<BossLevel>("Data\\bossLevel_data.json", new BossLevel());
+            
             var rnd = new Random();
-            var randLocations = locations.OrderBy(item => rnd.Next()).ToList();
-
+            var randBossLevels = bossLevels.OrderBy(boss => rnd.Next()).ToList();
+            var spoilerLog = "New boss".PadRight(20) + " | Old boss \n";
+            byte[] otherData = File.ReadAllBytes(opt.path);
+            if (opt.isBossW1_6Randomized)
+            {
+                for (int j = 0; j < randBossLevels.Count; j++)
+                {
+                    var bossLevel = randBossLevels[j];
+                    String[] byteLink = bossLevel.dataBlock.Split(' ');
+                    var adr = Convert.ToInt32(bossLevels[j].adress, 16);
+                    spoilerLog += bossLevel.name.PadRight(20) + " | " + bossLevels[j].name + "\n";
+                    locations.First(x => x.name.Contains(bossLevel.name)).nodeId = bossLevels[j].nodeId;
+                    for (int i = 0; i < byteLink.Length; i++)
+                    {
+                        var val = Convert.ToByte(byteLink[i], 16);
+                        otherData[adr + i] = val;
+                    }
+                }
+            }
+            spoilerLog += "\n\n";
+            spoilerLog += "New item".PadRight(20) + " | Old item \n";
             List<String> reqItemsStr = getRequiredItems(regions);
-            var requiredItems = items.Where(i=>reqItemsStr.Contains(i.Name)).ToList();
-
+            var requiredItems = items.Where(i => reqItemsStr.Contains(i.Name)).ToList();
+            var randLocations = locations.OrderBy(item => rnd.Next()).ToList();
             //placement des items required
             for (int i = 0; i < requiredItems.Count; i++)
             {
@@ -61,10 +81,10 @@ namespace KirbySqueakSquadRandomizer
                 {
                     bannedRegionsNames.Add(bannedRegion.toId);
                 }
-                var validLocation = randLocations.First(l=>!bannedRegionsNames.Contains(l.nodeId));
-                if(validLocation != null)
+                var validLocation = randLocations.First(l => !bannedRegionsNames.Contains(l.nodeId));
+                if (validLocation != null)
                 {
-                    var indexToModify = newItems.IndexOf(newItems.First(it=>it.Name == validLocation.name));
+                    var indexToModify = newItems.IndexOf(newItems.First(it => it.Name == validLocation.name));
                     newItems[indexToModify].Name = requiredItems[i].Name;
                     newItems[indexToModify].ItemId = requiredItems[i].ItemId;
                     randLocations.Remove(validLocation);
@@ -77,15 +97,14 @@ namespace KirbySqueakSquadRandomizer
                 }
             }
             //placement du reste des items
-            for (int i = 0; i < items.Count; i++) {
+            for (int i = 0; i < items.Count; i++)
+            {
                 var indexToModify = newItems.IndexOf(newItems.First(it => it.Name == randLocations[i].name));
                 newItems[indexToModify].Name = items[i].Name;
                 newItems[indexToModify].ItemId = items[i].ItemId;
             }
 
-            //remplacement des ID des newItems aux adresses des oldItems
-            byte[] otherData = File.ReadAllBytes(opt.path);
-            
+            //remplacement des ID des newItems aux adresses des oldItems           
             foreach (var item in newItems)
             {
                 string oldItemName = staticItems.First(x => x.Adress == item.Adress).Name;
@@ -94,11 +113,7 @@ namespace KirbySqueakSquadRandomizer
                 var val = Convert.ToByte(item.ItemId, 16);
                 otherData[adr] = val;
             }
-            /*
-            if (opt.isBossRandomized) { 
-                //randomize boss locations sauf W8 ?
-            }
-            */
+
             CommonOpenFileDialog openFileDialog1 = new CommonOpenFileDialog();
             openFileDialog1.InitialDirectory = "c:\\";
             openFileDialog1.IsFolderPicker = true;
@@ -108,7 +123,7 @@ namespace KirbySqueakSquadRandomizer
                 MessageBox.Show("Generation cancelled");
                 return false;
             }
-            
+
             string selectedFileName = openFileDialog1.FileName;
             File.WriteAllBytes(selectedFileName + "\\KSS_rando.nds", otherData);
             MessageBox.Show("File generated " + selectedFileName + "\\KSS_rando.nds");
@@ -122,11 +137,13 @@ namespace KirbySqueakSquadRandomizer
             List<string> items = new List<string>();
             foreach (var region in regions)
             {
-                foreach (var requiredItem in region.requiredItems) {
-                    if (!items.Contains(requiredItem)){
+                foreach (var requiredItem in region.requiredItems)
+                {
+                    if (!items.Contains(requiredItem))
+                    {
                         items.Add(requiredItem);
                     }
-                        
+
                 }
             }
 
@@ -143,6 +160,6 @@ namespace KirbySqueakSquadRandomizer
             }
             return returnList;
         }
-        
+
     }
 }
