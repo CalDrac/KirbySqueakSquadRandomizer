@@ -552,13 +552,13 @@
     "progressionType": "filler"
   },
   {
-    "name": "White",
+    "name": "Secret Sounds",
     "adress": "1C5BE4D",
     "itemId": "3D",
     "progressionType": "filler"
   },
   {
-    "name": "Secret Sounds",
+    "name": "White",
     "adress": "1C678BD",
     "itemId": "56",
     "progressionType": "filler"
@@ -594,13 +594,13 @@
     "progressionType": "filler"
   },
   {
-    "name": "Spunky Notes",
+    "name": "Bomb scroll",
     "adress": "1CB5D5D",
     "itemId": "26",
     "progressionType": "filler"
   },
   {
-    "name": "Bomb scroll",
+    "name": "Spunky Notes",
     "adress": "1CBB01D",
     "itemId": "65",
     "progressionType": "useful"
