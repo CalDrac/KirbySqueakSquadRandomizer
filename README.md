@@ -4,11 +4,16 @@ Randomizes items contained in chests, except for the strawberry shortcake, the g
 
 I have ideas to add randomizing options, but I don't have the knowledge in NDS rom structure to implement them.
 If you know : 
-- World structure
-- Level structure
-- How to add an item
+- How to give an item to Kirby
+- Collection data structure in RAM
 
 Feel free to contact me : caldrac on discord
+
+# BETA VERSION - Blocking powers hack
+
+You start with no powers, you need to collect a power scroll to unlock the corresponding power.
+
+It seems possible to win the game without any power 
 
 # To use the randomizer
 
@@ -35,3 +40,4 @@ Enjoy !
 - Wikirby a wiki about Kirby
 - Dinopony
 - lucas5201
+- royarashi
