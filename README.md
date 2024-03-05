@@ -1,5 +1,7 @@
 # KirbySqueakSquadRandomizer
 
+Requires BizHawk 2.9.1
+
 Randomizes items contained in chests, except for the strawberry shortcake, the goal of the game.
 
 I have ideas to add randomizing options, but I don't have the knowledge in NDS rom structure to implement them.
