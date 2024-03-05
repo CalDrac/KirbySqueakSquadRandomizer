@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KirbySqueakSquadRandomizer": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

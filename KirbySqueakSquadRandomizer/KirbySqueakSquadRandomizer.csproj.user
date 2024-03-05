@@ -7,13 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ArchipelagoSettingsWindows.xaml">
+    <Page Update="Windows\ArchipelagoSettingsWindows.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ClassicSettingsWindows.xaml">
+    <Page Update="Windows\BlockKirbyPowersSettingsWindows.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Windows\ClassicSettingsWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

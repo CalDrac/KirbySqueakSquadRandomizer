@@ -23,15 +23,27 @@ namespace KirbySqueakSquadRandomizer
         public MainWindow()
         {
             InitializeComponent();
-            ClassicSettingsWindow classicSettingsWindow = new ClassicSettingsWindow();
-            classicSettingsWindow.Show();
-            this.Close();
+
+            //ClassicSettingsWindow classicSettingsWindow = new ClassicSettingsWindow();
+            //classicSettingsWindow.Show();
+            //this.Close();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //Go to settings
-            
+            if (RadioButtonClassic.IsChecked.Value)
+            {
+                ClassicSettingsWindow classicSettingsWindow = new ClassicSettingsWindow();
+                classicSettingsWindow.Show();
+            }
+
+            if (RadioButtonBlockingPowers.IsChecked.Value)
+            {
+                BlockKirbyPowersSettingsWindows blockKirbyPowersSettingsWindows = new BlockKirbyPowersSettingsWindows();
+            }
+
+            this.Close();
         }
     }
 }
