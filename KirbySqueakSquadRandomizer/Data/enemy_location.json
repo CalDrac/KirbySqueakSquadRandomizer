@@ -1,0 +1,5447 @@
+[
+  /*
+  {
+    "monsterId": "",
+    "adress": "", //
+    "nodeId": ""
+  },
+    {
+    "monsterId": "16",
+    "adress": "0108F650", //04 00 17 00 D8 00 7C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  }
+  */
+
+  {
+    "monsterId": "00",
+    "adress": "01054210", //00 00 00 00 7C 02 A0 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01054220", //01 00 14 00 68 04 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01054230", //02 00 18 00 E8 05 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "15",
+    "adress": "01047E10", //00 00 15 00 68 02 98 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01047E20", //01 00 06 00 18 05 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "01",
+    "adress": "01047E30", //02 00 01 00 4C 04 28 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0104F410", //00 00 00 00 48 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "15",
+    "adress": "0104F420", //01 00 15 00 5C 01 84 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0104F430", //02 00 06 00 FC 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0104F440", //03 00 06 00 EC 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01074C10", //00 00 00 00 94 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01074C20", //01 00 0A 00 1C 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "0107B610", //00 00 1A 00 A8 00 10 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "0107EA10", //00 00 0D 00 3C 03 34 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "0107EA20", //01 00 1D 00 24 02 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0107EA30", //02 00 06 00 98 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "07",
+    "adress": "0107EA40", //03 00 07 00 CC 05 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0108F610", //00 00 00 00 9C 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "10",
+    "adress": "0108F620", //01 00 10 00 28 06 48 00 00 00 00 08 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0108F630", //02 00 06 00 B0 06 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "0108F640", //03 00 0A 00 E8 06 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "17",
+    "adress": "0108F650", //04 00 17 00 D8 00 7C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "16",
+    "adress": "0108F660", //05 00 16 00 A4 04 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "16",
+    "adress": "0108F670", //06 00 16 00 94 02 8C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "0108F680", //07 00 0A 00 4C 03 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "0109F410", //00 00 1D 00 D0 00 40 03 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0109F420", //01 00 06 00 9C 00 80 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0109F440", //03 00 00 00 C4 00 D0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "04",
+    "adress": "010A3410", //00 00 04 00 FC 00 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "04",
+    "adress": "010A3420", //01 00 04 00 68 01 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "04",
+    "adress": "010A3430", //02 00 04 00 80 02 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "28",
+    "adress": "010A7410", //00 00 28 00 60 02 60 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "28",
+    "adress": "010A7420", //01 00 28 00 E0 03 50 00 01 00 00 00 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "010A7460", //05 00 00 00 24 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "010A7470", //06 00 0A 00 B4 04 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "15",
+    "adress": "010AC010", //00 00 15 00 54 02 74 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "010A7420", //01 00 0D 00 F8 01 38 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "010A7430", //02 00 0D 00 68 02 3C 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "010A7440", //03 00 0D 00 E8 02 48 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "010A7450", //04 00 0A 00 C4 02 8C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "14",
+    "adress": "010A7460", //05 00 14 00 B0 03 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "17",
+    "adress": "010C8810", //00 00 17 00 84 01 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "18",
+    "adress": "010CC210", //00 00 18 00 74 01 50 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "010CC220", //01 00 1D 00 68 01 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "010CC230", //02 00 06 00 80 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "18",
+    "adress": "010CC240", //03 00 18 00 4C 02 60 00 02 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "010CC250", //04 00 06 00 90 02 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "24",
+    "adress": "010D0810", //00 00 24 00 70 01 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "010D0820", //01 00 1A 00 A0 00 30 01 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "010D0830", //02 00 1A 00 74 02 E0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "010D0840", //03 00 1A 00 18 02 90 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "010D5010", //00 00 00 00 8C 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "010D5020", //01 00 06 00 90 03 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "15",
+    "adress": "010D5030", //02 00 15 00 3C 04 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "07",
+    "adress": "010D5050", //04 00 07 00 78 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "010D5060", //05 00 0A 00 2C 03 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "01",
+    "adress": "010D5070", //06 00 01 00 84 05 4C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "06",
+    "adress": "010D5080", //07 00 06 00 F4 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "010D5090", //08 00 00 00 B4 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "010D50A0", //09 00 00 00 E0 02 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "15",
+    "adress": "010E9C10", //00 00 15 00 24 01 58 02 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "00",
+    "adress": "010E9C20", //01 00 00 00 08 01 A8 01 00 00 00 01 FF 00 00 00
+    "nodeId": "PrismPlains"
+  },
+  {
+    "monsterId": "15",
+    "adress": "010E9C10", //00 00 25 00 B8 01 50 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "15",
+    "adress": "010E9C10", //01 00 08 00 50 02 50 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "15",
+    "adress": "010E9C10", //02 00 08 00 B0 02 60 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "15",
+    "adress": "010E9C10", //03 00 0F 00 D0 00 A8 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "01116E10", //00 00 0C 00 24 00 2C 01 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "01116E20", //01 00 0C 00 9C 00 6C 01 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "01116E30", //02 00 0C 00 24 04 C8 01 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "01116E40", //03 00 0C 00 D8 00 70 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "01116E50", //04 00 1F 00 10 01 6C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "01116E60", //05 00 1F 00 04 02 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "01116E70", //06 00 04 00 A8 01 70 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "22",
+    "adress": "01116E80", //07 00 22 00 28 01 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01116E90", //08 00 06 00 B8 00 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01116EA0", //09 00 06 00 9C 01 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "19",
+    "adress": "0111E010", //00 00 19 00 F8 00 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "0111E020", //01 00 0F 00 58 04 68 00 00 00 00 00 00 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0111E030", //02 00 04 00 C8 02 3C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0111E040", //03 00 04 00 40 03 58 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "22",
+    "adress": "0111E050", //04 00 22 00 64 03 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "22",
+    "adress": "0111E060", //05 00 22 00 C4 03 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "24",
+    "adress": "0111E070", //06 00 24 00 70 02 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "22",
+    "adress": "0111E080", //07 00 22 00 C8 01 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "22",
+    "adress": "0111E090", //08 00 22 00 88 01 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "26",
+    "adress": "01125010", //00 00 26 00 F8 00 50 02 02 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "26",
+    "adress": "01125020", //01 00 26 00 14 01 7C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01125030", //02 00 14 00 A4 00 00 02 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "01125040", //03 00 04 00 48 00 D4 00 00 00 00 02 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "01125050", //04 00 04 00 D8 00 D4 00 00 00 00 02 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01125060", //05 00 14 00 78 00 D0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01125070", //06 00 14 00 70 00 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0112D610", //00 00 00 00 A8 00 60 00 05 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0112D620", //01 00 00 00 58 01 48 00 04 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0112D630", //02 00 00 00 F8 01 CC 00 02 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0112D660", //05 00 00 00 D4 04 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0112D670", //06 00 04 00 68 04 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0112D680", //07 00 00 00 38 05 4C 00 04 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "01",
+    "adress": "0112D690", //08 00 01 00 40 06 4C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0112D6A0", //09 00 04 00 A4 05 C4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "0112D6B0", //0A 00 0A 00 74 02 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "01",
+    "adress": "0112D6C0", //0B 00 01 00 D4 02 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "01",
+    "adress": "01131C10", //00 00 01 00 84 01 04 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "23",
+    "adress": "01131C20", //01 00 23 00 B8 00 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "01",
+    "adress": "01131C30", //02 00 01 00 E4 01 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "01",
+    "adress": "01131C40", //03 00 01 00 40 00 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01131C50", //04 00 14 00 AC 00 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlainsEX"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "01437E10", //00 00 1C 00 90 00 A4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01437E30", //02 00 18 00 90 00 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01437E40", //03 00 18 00 EC 00 20 01 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01437E50", //04 00 18 00 28 00 20 01 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01437E60", //05 00 18 00 90 00 60 01 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01464E10", //00 00 0A 00 B8 05 34 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01464E20", //01 00 06 00 28 05 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01464E30", //02 00 00 00 E8 04 84 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "01464E40", //03 00 2C 00 24 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01464E50", //04 00 00 00 B4 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01464E60", //05 00 00 00 C4 01 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "01464E70", //06 00 1F 00 94 02 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "01464E80", //07 00 1F 00 E8 02 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01464E90", //08 00 00 00 F8 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01464EA0", //09 00 00 00 78 05 F4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01464EB0", //0A 00 06 00 24 02 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "01464EC0", //0B 00 2C 00 60 04 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0146C410", //00 00 04 00 58 01 F4 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0146C420", //01 00 04 00 50 01 28 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0146C430", //02 00 04 00 60 01 60 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0146C440", //03 00 04 00 50 01 94 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473210", //00 00 27 00 00 01 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01473220", //01 00 14 00 98 01 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01473230", //02 00 18 00 1C 02 8C 00 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "01473240", //03 00 1D 00 A4 02 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "24",
+    "adress": "01473250", //04 00 24 00 84 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "01473260", //05 00 0D 00 88 03 4C 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01473270", //06 00 00 00 38 04 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01473280", //07 00 0A 00 18 05 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01473290", //08 00 14 00 00 06 70 00 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01478230", //02 00 18 00 54 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01478240", //03 00 00 00 BC 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "01478250", //04 00 1A 00 34 04 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01478260", //05 00 00 00 B8 04 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "01478270", //06 00 07 00 8C 05 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01478280", //07 00 06 00 A8 06 30 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01478290", //08 00 06 00 C8 06 30 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "014782A0", //09 00 06 00 28 07 30 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "014782B0", //0A 00 00 00 2C 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "014782C0", //0B 00 06 00 F8 06 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473210", //00 00 00 00 90 00 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473220", //01 00 14 00 F4 00 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473230", //02 00 18 00 90 00 D0 03 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473240", //03 00 18 00 10 01 20 01 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473250", //04 00 14 00 5C 00 FC 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473260", //05 00 18 00 FC 00 80 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473270", //06 00 22 00 60 00 90 01 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473280", //07 00 06 00 6C 00 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "01473290", //08 00 14 00 30 01 FC 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "014732A0", //09 00 17 00 34 01 60 03 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "014732B0", //0A 00 17 00 60 00 60 03 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "014732C0", //0B 00 18 00 8C 00 80 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "014CEC10", //00 00 14 00 B8 00 60 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "014CEC20", //01 00 00 00 34 02 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "014CEC30", //02 00 04 00 44 02 14 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "014CEC70", //06 00 06 00 4C 01 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "014CEC90", //08 00 00 00 90 03 6C 01 04 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "014CECA0", //09 00 18 00 A4 01 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "08",
+    "adress": "014CECB0", //0A 00 08 00 30 03 48 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "014CECC0", //0B 00 07 00 18 01 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "014CECD0", //0C 00 18 00 14 03 50 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "014CECD0", //0D 00 04 00 1C 02 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "014CECF0", //0E 00 06 00 2C 00 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "08",
+    "adress": "014CED00", //0F 00 08 00 E8 01 1C 01 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "014DC810", //00 00 1F 00 90 01 F8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "014DC820", //01 00 1D 00 B8 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "08",
+    "adress": "014DC830", //02 00 08 00 A0 00 38 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "20",
+    "adress": "01530A10", //00 00 20 00 E4 00 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01530A20", //01 00 00 00 48 05 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01530A30", //02 00 00 00 78 01 9C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01530A40", //03 00 00 00 FC 01 64 00 04 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01530A50", //04 00 00 00 B4 02 5C 00 04 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "01530A60", //05 00 1A 00 54 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "01",
+    "adress": "01530A70", //06 00 01 00 68 04 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "22",
+    "adress": "01530A80", //07 00 22 00 F0 04 70 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "01530A90", //08 00 07 00 C8 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "22",
+    "adress": "01530AA0", //09 00 22 00 C0 04 70 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01530AB0", //0A 00 00 00 C4 01 88 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01530A10", //00 00 06 00 B8 02 70 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "01530A10", //01 00 07 00 58 06 90 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01530A10", //02 00 0A 00 3C 03 B0 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "01530A10", //03 00 07 00 64 05 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "01530A10", //04 00 0F 00 E0 00 88 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01530A10", //05 00 06 00 CC 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "01530A10", //06 00 0F 00 54 04 88 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "02",
+    "adress": "01530A10", //07 00 02 00 6C 05 D4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "02",
+    "adress": "01530A10", //08 00 02 00 5C 06 D8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01530A10", //0A 00 0A 00 3C 02 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01530A10", //0B 00 0A 00 B4 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "016E5010", //00 00 27 00 38 00 10 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "27",
+    "adress": "016E5020", //01 00 27 00 24 01 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "016E5030", //02 00 07 00 58 01 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "016E5040", //03 00 07 00 5C 00 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "0153FA10", //00 00 07 00 88 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "0153FA20", //01 00 2A 00 A8 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "0153FA30", //02 00 1D 00 D8 02 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "01",
+    "adress": "0153FA40", //03 00 01 00 18 04 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "28",
+    "adress": "0153FA60", //05 00 28 00 B4 04 60 00 01 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0153FA70", //06 00 00 00 E0 02 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "24",
+    "adress": "01544810", //00 00 24 00 1C 01 20 03 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "01544830", //02 00 16 00 A0 00 A8 01 05 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01544840", //03 00 06 00 F8 00 90 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "01544850", //04 00 0C 00 2C 02 74 01 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "01544860", //05 00 16 00 B0 01 14 01 03 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "01544870", //06 00 16 00 C0 01 E4 01 03 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01544880", //07 00 06 00 88 01 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "28",
+    "adress": "01544890", //08 00 28 00 4C 01 B0 00 02 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "0154A010", //00 00 18 00 48 02 50 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "0154A020", //01 00 18 00 94 00 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "0154A030", //02 00 00 00 D8 01 A0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "0154A040", //03 00 07 00 30 02 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "0154A050", //04 00 0A 00 14 01 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0154A060", //05 00 06 00 70 00 A0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "0154A070", //06 00 18 00 AC 01 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "0154A080", //07 00 14 00 90 02 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0154A090", //08 00 06 00 1C 02 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "0154A0A0", //09 00 06 00 20 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "0154A0C0", //0B 00 18 00 50 02 50 02 00 00 00 04 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "0154A0D0", //0C 00 18 00 9C 00 E0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01557E10", //00 00 00 00 14 02 BC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "01557E10", //00 00 1A 00 54 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "08",
+    "adress": "015A8220", //01 00 08 00 B4 01 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "015A8230", //02 00 00 00 94 01 58 03 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "015A8240", //03 00 2C 00 AC 01 10 02 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "015A8250", //04 00 00 00 58 01 18 03 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "22",
+    "adress": "015A8260", //05 00 22 00 5C 02 B0 03 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "0160B010", //00 00 16 00 E8 00 5C 00 03 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "0160B020", //01 00 16 00 B0 04 90 00 03 01 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0160B030", //02 00 04 00 48 02 88 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0160B040", //03 00 04 00 B4 02 44 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "04",
+    "adress": "0160B050", //04 00 04 00 2C 03 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "0160B060", //05 00 16 00 F8 01 9C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "0160B070", //06 00 16 00 50 01 74 00 05 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "16",
+    "adress": "0160B080", //07 00 16 00 D0 03 94 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "0161C410", //00 00 0F 00 08 01 08 01 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01620410", //00 00 00 00 78 05 70 00 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "01620420", //01 00 2A 00 C8 04 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01620430", //02 00 00 00 18 04 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "15",
+    "adress": "01620440", //03 00 15 00 74 01 84 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01620450", //04 00 00 00 6C 02 A0 00 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "08",
+    "adress": "01620460", //05 00 08 00 2C 06 40 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01620470", //06 00 00 00 7C 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01620480", //07 00 00 00 C0 05 70 00 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "01620490", //08 00 00 00 34 06 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "016204A0", //09 00 00 00 EC 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01629810", //00 00 06 00 70 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "01629820", //01 00 1D 00 B8 00 60 01 03 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "01629830", //02 00 14 00 B8 00 90 01 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "162E810", //00 00 14 00 18 04 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "23",
+    "adress": "162E820", //01 00 23 00 F4 00 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "162E830", //02 00 14 00 9C 01 1C 00 04 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "14",
+    "adress": "162E840", //03 00 14 00 E8 01 4C 00 04 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "162E850", //04 00 00 00 18 03 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "162E860", //05 00 0F 00 00 04 58 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "01",
+    "adress": "162E870", //06 00 01 00 DC 02 28 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "162E880", //07 00 00 00 1C 04 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "00",
+    "adress": "162E890", //08 00 00 00 34 03 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "162E8A0", //09 00 06 00 88 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "162E81B", //0A 00 0A 00 70 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "15",
+    "adress": "01633610", //00 00 15 00 90 01 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "01633620", //01 00 1D 00 D4 01 30 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01633630", //02 00 0A 00 8C 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "01633640", //03 00 06 00 60 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "01633650", //04 00 0A 00 04 04 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "01633660", //05 00 1A 00 70 02 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "01633670", //06 00 07 00 C8 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "15",
+    "adress": "01633680", //07 00 15 00 5C 03 94 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "18",
+    "adress": "01633690", //08 00 18 00 1C 04 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "06",
+    "adress": "016336B0", //0A 00 06 00 60 02 A0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "07",
+    "adress": "016336C0", //0B 00 07 00 C8 01 A0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "016336D0", //0C 00 0A 00 8C 02 A0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "15",
+    "adress": "016336E0", //0D 00 15 00 5C 03 94 00 00 00 00 04 FF 00 00 00
+    "nodeId": "NatureNotch"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "016336E0", //00 00 2A 00 38 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "016336E0", //01 00 00 00 48 06 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "18",
+    "adress": "016336E0", //02 00 18 00 88 06 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "016336E0", //03 00 14 00 48 06 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "016336E0", //04 00 0A 00 F4 04 50 00 00 00 00 01 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "016336E0", //06 00 00 00 88 06 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "016336E0", //07 00 04 00 B0 02 3C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "016336E0", //08 00 04 00 E8 02 58 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "016336E0", //09 00 00 00 24 05 50 00 00 02 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "016336E0", //0A 00 00 00 D0 04 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "016336E0", //0B 00 06 00 D0 01 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "016336E0", //0C 00 06 00 00 02 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "016336E0", //0D 00 06 00 68 06 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1652640", //03 00 1A 00 30 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1652650", //04 00 0F 00 A0 03 68 01 00 00 00 00 01 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1652660", //05 00 18 00 68 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1652670", //06 00 04 00 9C 00 64 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1652670", //07 00 0F 00 E0 03 68 01 00 00 00 00 01 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "016336E0", //00 00 2B 00 5C 01 54 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "016336E0", //01 00 2B 00 5C 01 A4 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "016336E0", //02 00 06 00 C4 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "016336E0", //03 00 00 00 C8 01 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "016336E0", //04 00 04 00 38 03 3C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "016336E0", //05 00 04 00 68 03 3C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "016336E0", //06 00 2A 00 A8 04 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "17",
+    "adress": "016336E0", //07 00 17 00 A0 04 A0 00 02 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "016336E0", //08 00 0A 00 10 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "016336E0", //09 00 0A 00 50 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "016336E0", //0A 00 0A 00 F0 02 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "016336E0", //01 00 14 00 04 02 80 00 01 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "016336E0", //02 00 00 00 08 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "016336E0", //03 00 0A 00 20 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "22",
+    "adress": "016336E0", //04 00 22 00 70 00 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "016336E0", //05 00 0D 00 A8 00 B0 00 00 00 00 00 00 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "016336E0", //06 00 2C 00 40 01 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "NatureNotchEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1798C10", //00 00 0C 00 6C 02 FC 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1798C20", //01 00 0C 00 2C 03 5C 01 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1798C30", //02 00 0C 00 6C 03 9C 01 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1798C40", //03 00 08 00 B8 03 E4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1798C50", //04 00 08 00 E8 04 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1798C60", //05 00 08 00 3C 05 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1798C70", //06 00 01 00 78 03 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "25",
+    "adress": "1798C80", //07 00 25 00 18 01 A0 00 01 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1798C90", //08 00 14 00 A8 01 C0 00 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1798CA0", //09 00 04 00 94 05 EC 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1798CB0", //0A 00 0A 00 4C 04 70 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1798CC0", //0B 00 04 00 34 05 D0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1798CD0", //0C 00 00 00 28 02 04 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1798CE0", //0D 00 14 00 E0 05 10 02 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1798CF0", //0E 00 06 00 B8 02 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1798D00", //0F 00 06 00 CC 03 D0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "1798D10", //10 00 1C 00 A4 04 C0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1798D20", //11 00 00 00 18 04 D0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1798D30", //12 00 00 00 8C 03 D0 01 00 01 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "17A7610", //00 00 06 00 94 01 20 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "17A7620", //01 00 0D 00 D0 00 94 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "10",
+    "adress": "17A7630", //02 00 10 00 E8 01 4C 01 00 00 00 08 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "17A7640", //03 00 0D 00 18 01 D8 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "22",
+    "adress": "17A7650", //04 00 22 00 A8 01 E0 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "17A7660", //05 00 1F 00 0C 02 70 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "17A7670", //06 00 0F 00 00 01 58 01 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "17A7680", //07 00 18 00 2C 02 D0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "08",
+    "adress": "17AC610", //00 00 08 00 B8 02 64 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "08",
+    "adress": "17AC620", //01 00 08 00 D8 01 58 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "17AC630", //02 00 06 00 68 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "17AC640", //03 00 06 00 34 03 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1E",
+    "adress": "17AC650", //04 00 1E 00 F4 00 18 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "17AC660", //05 00 06 00 2C 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "17AC670", //06 00 0C 00 80 01 18 01 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "17AC680", //07 00 1A 00 08 03 70 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17AC690", //08 00 04 00 C8 02 2C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "08",
+    "adress": "17AC6A0", //09 00 08 00 38 02 14 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "17AC6B0", //0A 00 06 00 18 01 54 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "17AC6C0", //0B 00 06 00 F8 01 50 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "22",
+    "adress": "17AC610", //00 00 22 00 18 01 80 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "22",
+    "adress": "17B5A20", //01 00 22 00 E8 00 80 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "17B5A30", //02 00 1A 00 80 00 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "17B5A40", //03 00 06 00 D8 00 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "17B5A50", //04 00 2A 00 D0 00 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "23",
+    "adress": "17B9820", //01 00 23 00 74 02 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "14",
+    "adress": "17B9830", //02 00 14 00 A8 02 70 00 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17B9840", //03 00 04 00 D8 01 58 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "17B9850", //04 00 18 00 78 03 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "17B9860", //05 00 0A 00 28 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "17",
+    "adress": "17CA610", //00 00 17 00 F8 00 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "03",
+    "adress": "17CA620", //01 00 03 00 6C 01 90 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "03",
+    "adress": "17CA630", //02 00 03 00 90 02 90 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17CA640", //03 00 04 00 3C 02 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "17CA650", //04 00 01 00 A0 03 38 00 05 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "03",
+    "adress": "17CA660", //05 00 03 00 18 04 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "03",
+    "adress": "17CA670", //06 00 03 00 98 04 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "17CA680", //07 00 01 00 6C 04 24 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "17CA690", //08 00 0A 00 FC 04 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17CA6A0", //09 00 04 00 D8 01 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "17",
+    "adress": "17CA6B0", //0A 00 17 00 28 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "14",
+    "adress": "17CA6C0", //0B 00 14 00 C4 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "17CA6D0", //0C 00 01 00 94 05 38 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "02",
+    "adress": "17D6610", //00 00 02 00 C0 00 18 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "02",
+    "adress": "17D6620", //01 00 02 00 38 01 CC 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "03",
+    "adress": "17D6630", //02 00 03 00 14 02 40 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "03",
+    "adress": "17D6640", //03 00 03 00 38 02 E0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "17D6650", //04 00 1A 00 F0 00 2C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "17DE610", //00 00 01 00 6C 04 44 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "14",
+    "adress": "17DE620", //01 00 14 00 E8 00 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "17DE630", //02 00 18 00 08 01 70 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "17DE640", //03 00 0D 00 F4 02 58 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "17DE650", //04 00 0D 00 50 03 38 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "17DE660", //05 00 0D 00 BC 03 38 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "17DE670", //06 00 0D 00 0C 04 58 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "17E2010", //00 00 01 00 6C 01 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "17E2020", //01 00 01 00 D8 01 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "17E2030", //02 00 1F 00 24 02 34 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "17E2040", //03 00 1F 00 C4 02 34 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "17E2050", //04 00 1F 00 64 03 34 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17E2060", //05 00 04 00 B8 03 30 00 00 00 00 03 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17E2070", //06 00 04 00 EC 03 30 00 00 00 00 03 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17E2080", //07 00 04 00 14 04 40 00 00 00 00 03 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17E2090", //08 00 04 00 28 04 64 00 00 00 00 03 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "17E20A0", //09 00 04 00 2C 04 88 00 00 00 00 03 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "07",
+    "adress": "17E20B0", //0A 00 07 00 18 03 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "07",
+    "adress": "17E20C0", //0B 00 07 00 74 02 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "17E20D0", //0C 00 01 00 E8 00 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "17E20E0", //0D 00 18 00 84 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "02",
+    "adress": "17E5C10", //00 00 02 00 84 01 B8 00 03 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "17E5C20", //01 00 0F 00 68 01 48 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "14",
+    "adress": "17E5C30", //02 00 14 00 E8 01 3C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "17E5C40", //03 00 0F 00 90 00 48 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "14",
+    "adress": "17E5C50", //04 00 14 00 14 00 3C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "02",
+    "adress": "17E5C60", //05 00 02 00 A8 00 B8 00 03 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "19",
+    "adress": "180A210", //00 00 19 00 F0 00 B0 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "180A220", //01 00 04 00 70 04 F4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "180A230", //02 00 0A 00 48 05 1C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "180A240", //03 00 00 00 BC 01 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "180A250", //04 00 01 00 18 03 CC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "180A260", //05 00 01 00 C8 03 CC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "180A270", //06 00 06 00 E0 03 50 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "180A280", //07 00 0A 00 98 05 E8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "180A290", //08 00 0A 00 D4 05 A8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "180A2A0", //09 00 0A 00 04 06 78 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "180A2B0", //0A 00 04 00 2C 05 B4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "180A2C0", //0B 00 04 00 98 05 6C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "180A2D0", //0C 00 00 00 70 01 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "180A2E0", //0D 00 06 00 D8 02 70 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "180A2F0", //0E 00 06 00 28 03 70 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E10", //00 00 1F 00 78 00 50 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E20", //01 00 1F 00 A8 00 50 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E30", //02 00 1F 00 B8 00 E0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E40", //03 00 1F 00 78 00 A0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E50", //04 00 1F 00 A8 00 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E60", //05 00 1F 00 58 00 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E70", //06 00 1F 00 78 00 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E80", //07 00 1F 00 A8 00 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810E90", //08 00 1F 00 68 00 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1810EA0", //09 00 1F 00 A8 00 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815410", //00 00 1F 00 78 00 50 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815420", //01 00 1F 00 A8 00 50 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815430", //02 00 1F 00 B8 00 E0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815440", //03 00 1F 00 78 00 A0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815450", //04 00 1F 00 A8 00 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815460", //05 00 1F 00 C4 00 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815470", //06 00 1F 00 AC 00 44 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815480", //07 00 1F 00 98 00 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1815490", //08 00 1F 00 80 00 44 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "18154A0", //09 00 1F 00 68 00 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "18154B0", //0A 00 1F 00 A8 00 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "1819A10", //00 00 1C 00 18 01 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "1819A20", //01 00 1C 00 20 00 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "181CE10", //00 00 1D 00 C8 00 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "181CE20", //01 00 1D 00 88 03 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "181CE30", //02 00 18 00 58 02 70 00 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "181CE40", //03 00 18 00 E8 02 70 00 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "181CE50", //04 00 01 00 C4 04 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "181CE60", //05 00 01 00 28 05 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1824410", //00 00 1F 00 80 01 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1824420", //01 00 1F 00 28 02 B0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1824430", //02 00 07 00 DC 00 50 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1824440", //03 00 07 00 48 01 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1824450", //04 00 0F 00 A4 01 20 02 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1824460", //05 00 06 00 B4 01 98 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1824470", //06 00 08 00 54 01 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1824480", //07 00 1A 00 24 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "182E610", //00 00 06 00 D8 05 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "182E620", //01 00 04 00 70 03 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "182E630", //02 00 04 00 60 04 2C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "182E640", //03 00 1D 00 10 04 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "22",
+    "adress": "182E650", //04 00 22 00 E8 04 20 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "182E660", //05 00 00 00 48 02 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "182E670", //06 00 0A 00 30 03 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "182E680", //07 00 01 00 00 04 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "182E690", //08 00 04 00 8C 04 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "07",
+    "adress": "182E6A0", //09 00 07 00 38 01 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "182E6B0", //0A 00 04 00 E8 04 BC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "182E6C0", //0B 00 00 00 60 05 B8 00 04 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "27",
+    "adress": "182E6D0", //0C 00 27 00 E0 00 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1844810", //00 00 15 00 C8 00 E8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "27",
+    "adress": "184A410", //00 00 2C 00 B0 00 2C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "15",
+    "adress": "184A420", //01 00 2C 00 E4 00 C4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "1850A30", //02 00 2B 00 40 01 98 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "1850A40", //03 00 2A 00 60 04 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1850A50", //04 00 0A 00 CC 01 4C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1850A60", //05 00 0A 00 4C 02 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1850A70", //06 00 15 00 18 03 74 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1854410", //00 00 00 00 14 02 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "1854420", //01 00 2A 00 28 01 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1854430", //02 00 00 00 4C 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1854440", //03 00 15 00 94 02 44 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1854450", //04 00 00 00 60 04 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1854460", //05 00 0A 00 A0 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1854470", //06 00 0F 00 00 03 58 01 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1854480", //07 00 04 00 E4 01 C4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1854490", //08 00 04 00 10 04 64 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "10",
+    "adress": "18544A0", //09 00 10 00 04 01 50 00 00 00 00 08 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "185A010", //00 00 06 00 18 02 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "185A020", //01 00 00 00 E0 02 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "185A030", //02 00 0A 00 C4 03 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "22",
+    "adress": "185A040", //03 00 22 00 E0 04 40 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "185A050", //04 00 0F 00 5C 06 48 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "185A060", //05 00 0F 00 14 07 48 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "185A0B0", //0A 00 0D 00 08 08 50 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "185A0C0", //0B 00 0D 00 50 08 5C 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "185A0D0", //0C 00 0D 00 A0 08 6C 00 00 00 00 00 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "15",
+    "adress": "185A0E0", //0D 00 15 00 08 03 94 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "185A0F0", //0E 00 00 00 B0 03 A0 00 00 01 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "185A120", //11 00 06 00 88 05 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "185A160", //15 00 06 00 88 05 80 00 00 00 00 04 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "06",
+    "adress": "185A170", //16 00 06 00 18 02 40 00 00 00 00 04 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "185A180", //17 00 00 00 E0 02 40 00 00 00 00 04 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "185A190", //18 00 0A 00 C4 03 40 00 00 00 00 04 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "22",
+    "adress": "185A1A0", //19 00 22 00 E0 04 40 00 01 00 00 04 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "185A1B0", //1A 00 0F 00 5C 06 48 00 00 00 00 04 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "185A1C0", //1B 00 0F 00 14 07 48 00 00 00 00 04 00 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "15",
+    "adress": "185A1D0", //1C 00 15 00 08 03 94 00 01 00 00 04 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1863810", //00 00 04 00 18 04 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1863820", //01 00 04 00 E0 04 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1863830", //02 00 04 00 10 05 B4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1863830", //03 00 01 00 C0 05 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1863850", //04 00 04 00 60 01 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1863860", //05 00 18 00 E8 00 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1863870", //06 00 18 00 40 03 90 00 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1866C10", //00 00 04 00 B4 00 B8 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1866C20", //01 00 04 00 00 01 8C 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1866C30", //02 00 04 00 B4 00 58 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1866C40", //03 00 04 00 FC 00 28 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1866C50", //04 00 04 00 C8 00 18 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1866C60", //05 00 16 00 50 01 BC 00 05 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1866C70", //06 00 16 00 A0 01 BC 00 03 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1866C80", //07 00 01 00 FC 00 28 01 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1866C90", //08 00 01 00 18 01 BC 00 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloud"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1893810", //00 00 24 00 3C 01 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1893820", //01 00 14 00 50 00 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "189F620", //01 00 14 00 98 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "24",
+    "adress": "189F630", //02 00 24 00 E4 00 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "189F640", //03 00 14 00 00 01 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "189F650", //04 00 06 00 C4 00 C0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "189F660", //05 00 14 00 1C 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "189F670", //06 00 06 00 BC 00 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "189F680", //07 00 06 00 9C 03 20 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "24",
+    "adress": "189F690", //08 00 24 00 18 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "189F6C0", //0B 00 06 00 A0 02 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "189F6D0", //0C 00 06 00 34 03 80 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "189F6E0", //0D 00 14 00 CC 01 20 02 02 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "189F6F0", //0E 00 14 00 C0 00 80 02 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "189F700", //0F 00 14 00 6C 03 50 01 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1893810", //00 00 06 00 50 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1893810", //01 00 14 00 F9 01 5B 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1893810", //02 00 08 00 7D 02 2D 00 01 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1893810", //03 00 1A 00 6B 04 59 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1893810", //04 00 00 00 B0 05 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1893810", //05 00 00 00 D0 05 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1893810", //06 00 06 00 58 06 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1893810", //07 00 06 00 8C 06 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1893810", //08 00 06 00 07 07 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1893810", //09 00 06 00 FB 04 9D 00 00 00 00 00 FF 00 00 00
+    "nodeId": "CushyCloudEX"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "18CA610", //00 00 1D 00 C8 00 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "18CA620", //01 00 0A 00 14 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "18CA630", //02 00 0A 00 A4 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "18CA640", //03 00 1D 00 20 04 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18CA650", //04 00 00 00 98 02 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "18CA610", //00 00 14 00 A8 00 60 00 02 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "26",
+    "adress": "18DAA10", //00 00 26 00 10 01 00 02 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "15",
+    "adress": "18DAA20", //01 00 15 00 18 01 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "18DAA30", //02 00 06 00 18 01 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "18DAA40", //03 00 14 00 94 00 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18DAA50", //04 00 00 00 88 00 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "23",
+    "adress": "18DAA60", //05 00 23 00 38 01 70 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "23",
+    "adress": "18DAA70", //06 00 23 00 7C 00 70 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "18DEE10", //00 00 14 00 A0 01 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "18DEE20", //01 00 06 00 A8 02 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1E",
+    "adress": "18DEE30", //02 00 1E 00 A8 00 A8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18DEE40", //03 00 00 00 34 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "18DEE50", //04 00 1F 00 04 03 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "18DEE60", //05 00 1F 00 A0 03 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1E",
+    "adress": "18DEE70", //06 00 1E 00 B8 03 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "18DEE80", //07 00 0A 00 F4 03 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "18DEE90", //08 00 0C 00 2C 02 84 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "18DEEA0", //09 00 0C 00 D4 02 B8 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "18DEEB0", //0A 00 06 00 7C 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "18E3C50", //04 00 24 00 90 00 40 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "18E3C60", //05 00 14 00 C0 00 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "18E3C70", //06 00 0C 00 00 01 AC 02 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "18E3C80", //07 00 0C 00 24 00 AC 02 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "07",
+    "adress": "18E3CA0", //09 00 07 00 98 00 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "15",
+    "adress": "18E7C10", //00 00 15 00 E8 01 F4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "18E7C20", //01 00 04 00 88 01 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "18E7C30", //02 00 04 00 E4 00 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "18E7C40", //03 00 04 00 34 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "15",
+    "adress": "18E7C50", //04 00 15 00 D4 00 F4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "18F7C10", //00 00 2B 00 70 01 94 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "15",
+    "adress": "18F7C20", //01 00 15 00 18 03 84 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "18F7C30", //02 00 0A 00 44 04 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "09",
+    "adress": "18F7C40", //03 00 09 00 58 06 90 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "18F7C50", //04 00 2B 00 34 03 40 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18F7C60", //05 00 00 00 28 02 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "18F7C70", //06 00 2B 00 4C 05 54 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "18F7C80", //07 00 0A 00 A4 04 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "18F7C90", //08 00 2B 00 D0 05 94 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18F7CA0", //09 00 00 00 A8 06 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18F7CB0", //0A 00 00 00 F8 06 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18F7CC0", //0B 00 00 00 D8 06 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "08",
+    "adress": "18FCE10", //00 00 08 00 A8 00 48 01 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "18FCE20", //01 00 2C 00 38 01 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "18FCE30", //02 00 2C 00 F4 00 08 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "18FCE50", //04 00 2C 00 A4 00 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "18FCE60", //05 00 2C 00 F0 00 C0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "08",
+    "adress": "18FCE70", //06 00 08 00 B4 00 CC 01 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18FCE90", //08 00 00 00 E4 00 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18FCEA0", //09 00 00 00 3C 01 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "18FCEB0", //0A 00 0A 00 C0 01 4C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "18FCEC0", //0B 00 00 00 8C 01 90 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1902210", //00 00 0F 00 A8 01 50 00 00 00 00 01 01 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "25",
+    "adress": "1902220", //01 00 25 00 04 01 B0 00 01 00 00 00 01 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1902230", //02 00 0F 00 70 02 50 00 00 00 00 01 01 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1902240", //03 00 0F 00 C4 01 50 00 00 00 00 01 01 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1902250", //04 00 0F 00 90 02 54 00 00 00 00 01 01 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1902260", //05 00 0F 00 AC 01 78 00 00 00 00 00 01 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1902270", //06 00 0F 00 8C 02 78 00 00 00 00 00 01 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1902280", //07 00 14 00 C0 01 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1902290", //08 00 1A 00 C0 02 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1906C10", //00 00 24 00 D4 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1906C20", //01 00 1A 00 C0 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1906C30", //02 00 24 00 D8 04 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1906C40", //03 00 24 00 5C 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1906C50", //04 00 1F 00 84 04 3C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1906C60", //05 00 1F 00 2C 04 40 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1906C70", //06 00 1A 00 40 02 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1937E10", //00 00 06 00 1C 03 80 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1937E20", //01 00 06 00 24 05 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1937E30", //02 00 06 00 FC 04 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1E",
+    "adress": "1944610", //00 00 1E 00 DC 00 C8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1944620", //01 00 04 00 30 01 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1944630", //02 00 04 00 54 01 9C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1944640", //03 00 04 00 F0 00 AC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1944650", //04 00 06 00 9C 03 38 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1944660", //05 00 06 00 10 01 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1944670", //06 00 0A 00 90 01 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1944680", //07 00 06 00 E4 03 80 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1944690", //08 00 00 00 B0 03 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "19446A0", //09 00 00 00 F8 03 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19446B0", //0A 00 06 00 E8 02 10 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19446C0", //0B 00 06 00 2C 02 10 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "19446D0", //0C 00 24 00 40 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "19446E0", //0D 00 04 00 CC 00 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "19446F0", //0E 00 00 00 10 02 1C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1944700", //0F 00 00 00 B8 03 58 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "194A410", //00 00 14 00 A0 00 EC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "194A420", //01 00 0C 00 1C 01 04 01 01 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "194A430", //02 00 0C 00 9C 01 64 01 01 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "194A470", //06 00 24 00 58 02 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "194A480", //07 00 14 00 54 01 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "194A490", //08 00 14 00 98 02 60 00 02 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1957210", //00 00 16 00 10 02 9C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1957220", //01 00 15 00 64 01 74 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1957230", //02 00 0A 00 20 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1957240", //03 00 15 00 FC 00 C4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1957250", //04 00 1A 00 A8 03 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "1960610", //00 00 2C 00 74 01 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1960620", //01 00 06 00 18 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1960630", //02 00 0A 00 D0 02 C8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1960640", //03 00 0A 00 38 03 64 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1960650", //04 00 00 00 E8 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1960660", //05 00 00 00 00 03 9C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1960670", //06 00 00 00 1C 03 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1E",
+    "adress": "1960680", //07 00 1E 00 AC 02 8C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1960690", //08 00 1F 00 44 04 88 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "19606A0", //09 00 14 00 D4 04 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "19606B0", //0A 00 20 00 58 05 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "09",
+    "adress": "19606C0", //0B 00 09 00 E8 04 E1 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "19606D0", //0C 00 1D 00 D8 05 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "19606E0", //0D 00 00 00 A4 05 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "19606F0", //0E 00 00 00 C0 05 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1960700", //0F 00 06 00 04 06 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1960710", //10 00 0A 00 AC 06 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "1960720", //11 00 20 00 9E 00 7A 00 01 00 00 04 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "1960740", //13 00 20 00 30 02 B0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "1960750", //14 00 20 00 A8 03 50 00 00 00 00 04 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "1960760", //15 00 20 00 38 05 40 00 00 00 00 04 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "1960770", //16 00 20 00 90 04 E0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "1960780", //17 00 20 00 38 05 E0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "1960790", //18 00 20 00 00 06 E0 00 00 00 00 04 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "20",
+    "adress": "19607A0", //19 00 20 00 40 01 CC 00 00 00 00 04 FF 00 00 00  
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1966C10", //00 00 00 00 18 02 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1966C20", //01 00 18 00 E8 00 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1966C30", //02 00 04 00 A0 01 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1966C40", //03 00 0A 00 10 04 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1966C50", //04 00 01 00 50 04 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1966C60", //05 00 01 00 A8 04 44 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1966C70", //06 00 00 00 40 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1966C80", //07 00 00 00 B0 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1966C90", //08 00 0D 00 EC 04 34 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1966CA0", //09 00 0D 00 68 05 38 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1966CB0", //0A 00 0F 00 08 05 98 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1966CC0", //0B 00 0F 00 80 05 98 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1966CD0", //0C 00 18 00 B4 06 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1966CE0", //0D 00 00 00 7C 02 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1980010", //00 00 24 00 A8 00 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1980020", //01 00 24 00 74 00 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1983210", //00 00 08 00 74 01 28 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1983220", //01 00 08 00 3C 02 28 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1983230", //02 00 22 00 1C 01 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1983240", //03 00 22 00 94 01 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "1983250", //04 00 2C 00 AC 02 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1983260", //05 00 22 00 50 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1983270", //06 00 1A 00 10 01 60 00 00 00 00 00 FF 00 00 000
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1983280", //07 00 1A 00 C8 01 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1986C10", //00 00 06 00 AC 00 F8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1986C20", //01 00 04 00 08 01 40 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1986C30", //02 00 06 00 AC 00 00 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1986C40", //03 00 06 00 FC 00 8C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1986C50", //04 00 06 00 88 00 F8 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1986C60", //05 00 06 00 2C 01 6C 03 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1986C70", //06 00 06 00 A0 00 54 03 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1986C80", //07 00 1D 00 D8 00 D0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1986C90", //08 00 06 00 38 01 E4 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "198BC10", //00 00 0F 00 E0 01 48 01 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "198BC20", //01 00 0F 00 78 00 58 01 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "198BC50", //04 00 0F 00 E4 01 E8 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1990210", //00 00 07 00 F4 01 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1990220", //01 00 07 00 34 01 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1990230", //02 00 07 00 24 02 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1990240", //03 00 15 00 BC 00 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1990250", //04 00 15 00 C8 02 74 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1990260", //05 00 07 00 90 01 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "25",
+    "adress": "1995410", //00 00 25 00 38 00 30 02 01 00 00 00 00 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1995420", //01 00 1A 00 EC 00 E0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1995430", //02 00 14 00 3C 00 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1995440", //03 00 14 00 84 00 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "1995450", //04 00 2A 00 98 00 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1995460", //05 00 14 00 C8 00 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungle"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "19E1C40", //03 00 0D 00 E8 00 68 01 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "19E1C50", //04 00 0D 00 E8 00 AC 01 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "19E1C60", //05 00 0D 00 E4 00 0C 02 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19E1C70", //06 00 06 00 94 00 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19E1C80", //07 00 06 00 E4 00 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "19EC410", //00 00 00 00 B8 02 54 00 04 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "22",
+    "adress": "19EC420", //01 00 22 00 08 05 F0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "19F1820", //01 00 04 00 60 00 9C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "19F1830", //02 00 04 00 44 00 E8 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "19F1840", //03 00 14 00 F4 00 C0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "08",
+    "adress": "19F1850", //04 00 08 00 F4 00 E0 01 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "19F1860", //05 00 04 00 38 00 64 02 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19F1870", //06 00 06 00 40 00 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "19F1880", //07 00 00 00 F4 00 88 02 04 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "04",
+    "adress": "19F1890", //08 00 04 00 30 00 08 03 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "18",
+    "adress": "19F5610", //00 00 18 00 34 01 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "08",
+    "adress": "19F5620", //01 00 08 00 E0 01 48 00 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "27",
+    "adress": "19F5630", //02 00 27 00 A0 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "24",
+    "adress": "19F5640", //03 00 24 00 E8 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19F5650", //04 00 06 00 84 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19F5660", //05 00 06 00 DC 01 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "19F5670", //06 00 06 00 EC 01 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "19F5680", //07 00 0A 00 60 01 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "08",
+    "adress": "19F5690", //08 00 08 00 40 03 08 01 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "15",
+    "adress": "19FAA10", //00 00 15 00 38 01 F4 01 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "19FAA20", //01 00 0C 00 3C 01 38 01 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "19FAA30", //02 00 0C 00 C4 00 F8 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "17",
+    "adress": "19FAA40", //03 00 17 00 C8 00 00 02 01 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1A00410", //00 00 16 00 10 03 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1A00420", //01 00 16 00 F0 02 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1A00430", //02 00 16 00 9C 02 8C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "23",
+    "adress": "1A00440", //03 00 23 00 60 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1A00450", //04 00 0C 00 74 01 48 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1A00460", //05 00 0C 00 88 00 40 00 00 00 00 00 00 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1A00470", //06 00 14 00 00 01 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1A00480", //07 00 06 00 C0 00 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "JamJungleEX"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "1A0FA10", //00 00 2C 00 9C 01 A0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1A0FA20", //01 00 15 00 08 01 44 02 01 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1A0FA30", //02 00 14 00 2C 02 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1A0FA40", //03 00 08 00 38 01 44 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1A0FA50", //04 00 08 00 90 01 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "08",
+    "adress": "1A0FA60", //05 00 08 00 E8 01 98 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "1A1EA10", //00 00 2B 00 C4 00 84 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A21C10", //00 00 01 00 04 03 44 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1A21C20", //01 00 16 00 10 02 3C 01 01 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1A21C30", //02 00 14 00 78 02 60 00 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "23",
+    "adress": "1A21C40", //03 00 23 00 4C 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1A21C50", //04 00 16 00 90 02 7C 01 00 01 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1A21C60", //05 00 16 00 90 02 FC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1A21C70", //06 00 24 00 BC 00 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1A21C80", //07 00 24 00 9C 01 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "1A26410", //00 00 1C 00 90 00 50 02 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1A26430", //02 00 06 00 20 01 10 02 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1A26440", //03 00 0A 00 60 00 AC 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1A26470", //06 00 0C 00 6C 00 6C 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "1A26480", //07 00 1C 00 D4 00 B8 03 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1A26490", //08 00 0A 00 60 00 D0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1A264A0", //09 00 00 00 90 00 D0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1A264B0", //0A 00 00 00 8C 00 30 03 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1A264C0", //0B 00 00 00 C0 00 30 03 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1A264D0", //0C 00 06 00 34 01 D0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1A2B020", //01 00 1A 00 64 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1A2B030", //02 00 06 00 60 01 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1A2B040", //03 00 18 00 BC 00 24 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A2B050", //04 00 01 00 68 02 64 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A2B060", //05 00 01 00 48 02 C0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1A2B070", //06 00 14 00 58 02 08 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "1A2B080", //07 00 2C 00 38 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "1A2B090", //08 00 2C 00 DC 02 EC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1A3E610", //00 00 15 00 90 01 A4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1A3E620", //01 00 1A 00 B4 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A3E630", //02 00 01 00 18 02 48 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "1A46C10", //00 00 2A 00 D4 00 F0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1A46C20", //01 00 04 00 8C 00 98 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1A46C30", //02 00 0D 00 28 00 58 01 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1A46C40", //03 00 0F 00 D4 00 28 01 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1A46C50", //04 00 15 00 F4 00 D4 00 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1A46C60", //05 00 15 00 B8 00 54 00 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B010", //00 00 01 00 4C 01 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B020", //01 00 01 00 60 01 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B030", //02 00 01 00 D8 01 B4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B040", //03 00 01 00 DC 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B050", //04 00 01 00 AC 02 B8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B060", //05 00 01 00 4C 02 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B070", //06 00 01 00 64 02 4C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B080", //07 00 01 00 F0 02 14 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B090", //08 00 01 00 3C 02 8C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B0A0", //09 00 01 00 F8 02 6C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B0B0", //0A 00 01 00 30 03 C8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B0C0", //0B 00 01 00 48 03 E4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B0D0", //0C 00 01 00 94 03 68 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1A4B0E0", //0D 00 01 00 AC 03 EC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1A4F610", //00 00 16 00 F8 01 C8 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1A4F620", //01 00 1D 00 B8 00 10 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1A4F660", //05 00 00 00 68 02 B8 00 00 05 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1A4F670", //06 00 24 00 8C 01 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1A4F680", //07 00 1F 00 84 02 34 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "1A4F690", //08 00 2C 00 F0 00 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1A4F6A0", //09 00 00 00 38 02 DC 00 00 05 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1A54E10", //00 00 14 00 00 01 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E20", //01 00 07 00 70 01 10 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E30", //02 00 07 00 D0 01 E8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E40", //03 00 07 00 E8 01 DC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E50", //04 00 07 00 80 02 D8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E60", //05 00 07 00 D8 02 D4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E70", //06 00 07 00 C0 02 E0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E80", //07 00 07 00 D4 02 78 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1A54E90", //08 00 07 00 68 03 74 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1A54EA0", //09 00 0D 00 80 01 40 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1A54EB0", //0A 00 0D 00 F8 00 68 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1A54EC0", //0B 00 0D 00 10 02 54 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1A54ED0", //0C 00 0D 00 BC 02 38 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1A54EE0", //0D 00 0D 00 80 02 74 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1A54EF0", //0E 00 0D 00 30 03 3C 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1A6AE10", //00 00 15 00 C8 00 34 04 01 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1A6AE20", //01 00 17 00 48 00 40 04 01 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1A6AE30", //02 00 1A 00 C8 00 10 04 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1A6AE40", //03 00 1D 00 48 00 10 04 03 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "28",
+    "adress": "1A96C20", //01 00 28 00 40 00 50 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1A96C30", //02 00 04 00 F0 01 58 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "19",
+    "adress": "1A96C40", //03 00 19 00 2C 01 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1A96C50", //04 00 1D 00 E0 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1A96C60", //05 00 00 00 E8 00 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1A96C70", //06 00 0F 00 7C 01 28 01 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1A96C80", //07 00 14 00 18 02 B4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1A96C90", //08 00 00 00 B0 02 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1AA7C10", //00 00 07 00 AC 01 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1AA7C20", //01 00 07 00 F4 01 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AA7C30", //02 00 0F 00 54 03 68 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AA7C40", //03 00 0F 00 9C 03 68 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "1AA7C50", //04 00 2A 00 14 04 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1AA7C60", //05 00 16 00 D0 00 44 00 03 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1AA7C70", //06 00 16 00 80 02 54 00 03 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1AAC010", //00 00 0C 00 BC 00 B8 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1AAC020", //01 00 18 00 A4 00 60 00 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1AAC030", //02 00 0C 00 94 00 3C 01 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1AAC040", //03 00 14 00 D8 00 90 02 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1AAC050", //04 00 14 00 C4 00 E8 01 04 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1AAC060", //05 00 14 00 58 00 DC 01 04 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1AAC070", //06 00 14 00 90 00 A0 01 04 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1AAC080", //07 00 14 00 78 00 F0 00 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1AAC010", //00 00 0A 00 08 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1AAC010", //01 00 06 00 08 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1AAC010", //02 00 06 00 38 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AAC010", //03 00 0F 00 08 04 78 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1AAC010", //04 00 0A 00 F4 04 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1AAC010", //05 00 15 00 94 02 84 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AAC010", //06 00 0F 00 68 04 A8 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AAC010", //07 00 0F 00 98 04 A8 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AAC010", //08 00 0F 00 D4 04 A8 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1AAC010", //09 00 07 00 90 03 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1AAC010", //0A 00 07 00 1C 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1AAC010", //0B 00 07 00 5C 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1AAC010", //0C 00 07 00 58 02 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1AB7610", //00 00 1F 00 18 03 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1AB7620", //01 00 1F 00 98 02 30 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1AB7630", //02 00 04 00 04 02 34 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "1AB7640", //03 00 1C 00 10 03 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1AB7650", //04 00 15 00 D4 03 A4 00 02 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1AB7660", //05 00 22 00 B8 01 B0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1AB7670", //06 00 22 00 00 02 B0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1AE6410", //00 00 17 00 F0 00 00 02 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1AE6420", //01 00 1A 00 50 00 E0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1AE6430", //02 00 04 00 F4 00 5C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1AE6440", //03 00 04 00 CC 00 28 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1AE6450", //04 00 04 00 F0 00 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1AE6460", //05 00 06 00 60 00 60 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1AE6470", //06 00 24 00 CC 00 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AE6480", //07 00 0F 00 4C 00 88 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1AE6490", //08 00 0F 00 14 01 48 00 00 00 00 00 00 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1AE64F0", //0E 00 17 00 F0 00 80 01 00 00 00 04 FF 00 00 00
+    "nodeId": "VocalVolcano"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1ADCC10", //00 00 24 00 E8 00 B0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1AE1E10", //00 00 15 00 C0 00 34 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1AE1E20", //01 00 01 00 A8 01 1C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "2A",
+    "adress": "1AE1E30", //02 00 2A 00 5C 00 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1AE6410", //00 00 18 00 E0 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1AE6420", //01 00 18 00 34 00 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1AE6440", //03 00 18 00 E0 01 50 00 00 00 00 04 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1AE6450", //04 00 18 00 34 00 50 00 00 00 00 04 FF 00 00 00
+    "nodeId": "VocalVolcanoEX"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B17410", //00 00 00 00 04 01 74 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1B17420", //01 00 06 00 B8 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1B26A10", //00 00 17 00 E8 00 8C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1B26A20", //01 00 17 00 70 02 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1B26A30", //02 00 04 00 3C 03 6C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1B26A40", //03 00 17 00 44 04 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1B26A50", //04 00 17 00 24 05 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1B26A60", //05 00 04 00 B0 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1B26A70", //06 00 0A 00 AC 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1B2B210", //00 00 24 00 EC 01 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1B2B220", //01 00 18 00 20 01 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "19",
+    "adress": "1B2B230", //02 00 19 00 48 01 90 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B2B240", //03 00 00 00 04 02 B0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B2B250", //04 00 00 00 60 02 DC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B2B260", //05 00 00 00 DC 02 1C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1B2B270", //06 00 0A 00 20 02 D8 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1B2B280", //07 00 14 00 80 00 AC 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B2B290", //08 00 00 00 F4 00 D0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1B2B2A0", //09 00 0A 00 A8 01 D0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B2B2B0", //0A 00 00 00 6C 02 8C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1B2B2C0", //0B 00 0A 00 40 01 D0 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B2B2D0", //0C 00 00 00 78 00 28 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1E",
+    "adress": "1B31C10", //00 00 1E 00 44 04 54 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B31C20", //01 00 22 00 3C 05 6C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B31C30", //02 00 00 00 44 02 8C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "2C",
+    "adress": "1B39A30", //02 00 2C 00 DC 00 A0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "2B",
+    "adress": "1B39A40", //03 00 2B 00 48 00 70 02 00 00 00 01 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1B3D810", //00 00 24 00 8C 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1B3D820", //01 00 0D 00 BC 00 44 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1B3D830", //02 00 0D 00 08 01 38 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1B49010", //00 00 17 00 38 04 30 00 01 00 00 01 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1B49020", //01 00 17 00 98 04 30 00 01 00 00 01 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B49030", //02 00 00 00 44 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1B49040", //03 00 01 00 20 02 40 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1B49050", //04 00 07 00 38 01 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1B49060", //05 00 01 00 20 05 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1B49070", //06 00 07 00 BC 02 A4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1B55410", //00 00 1F 00 8C 00 B4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1B55420", //01 00 1F 00 B8 00 B4 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1B55430", //02 00 18 00 00 01 70 01 02 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1B55440", //03 00 18 00 58 00 70 01 02 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1B55450", //04 00 1F 00 EC 00 BC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "15",
+    "adress": "1B59610", //00 00 15 00 8C 01 D8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1B59620", //01 00 0F 00 88 00 28 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1B60E10", //00 00 1D 00 00 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1B60E90", //08 00 1D 00 C4 01 80 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E10", //00 00 16 00 20 00 B8 00 03 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E20", //01 00 16 00 40 00 14 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E30", //02 00 16 00 5C 00 3C 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E40", //03 00 16 00 C0 00 30 01 05 00 00 00 FF 00 00 000
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E50", //04 00 16 00 A0 01 1C 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E60", //05 00 16 00 CC 01 3C 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E70", //06 00 16 00 50 01 E0 00 03 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65E80", //07 00 16 00 D4 01 DC 00 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1B65E90", //08 00 06 00 DC 00 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65EA0", //09 00 16 00 64 01 9C 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65EB0", //0A 00 16 00 D0 01 90 00 03 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65EC0", //0B 00 16 00 F0 01 7C 00 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65ED0", //0C 00 16 00 B4 00 9C 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1B65EE0", //0D 00 06 00 38 01 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65EF0", //0E 00 16 00 08 01 9C 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65F00", //0F 00 16 00 A8 01 BC 00 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65F10", //10 00 16 00 D0 00 44 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1B65F20", //11 00 16 00 70 01 54 01 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B65F80", //17 00 22 00 A8 00 90 01 01 00 00 04 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B65F90", //18 00 22 00 70 00 F4 00 01 00 00 04 FF 00 00 000
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B65FA0", //19 00 22 00 84 00 34 01 01 00 00 04 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1B8F410", //00 00 1F 00 BC 00 F0 01 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1B8F420", //01 00 1A 00 5C 00 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1B8F430", //02 00 1A 00 A0 00 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1B8F440", //03 00 24 00 44 00 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B8F450", //04 00 22 00 BC 00 70 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B8F460", //05 00 22 00 54 00 70 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B8F470", //06 00 22 00 F0 00 70 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1B8F480", //07 00 22 00 84 00 70 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1B8F490", //08 00 1A 00 F4 00 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "27",
+    "adress": "1B93210", //00 00 27 00 50 01 00 03 00 00 00 01 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1B93240", //03 00 18 00 E0 00 00 03 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1B93250", //04 00 04 00 38 01 74 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1B93260", //05 00 04 00 68 01 44 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1B93270", //06 00 0C 00 10 01 AC 01 00 00 00 00 01 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1B93280", //07 00 0C 00 8C 01 5C 01 00 00 00 00 01 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "18",
+    "adress": "1B93290", //08 00 18 00 E4 00 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1B932A0", //09 00 14 00 40 00 50 04 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1B932B0", //0A 00 04 00 40 01 1C 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1B99810", //00 00 00 00 44 00 40 00 05 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1B99850", //04 00 06 00 94 00 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1B9D210", //00 00 0D 00 E4 00 98 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1B9D220", //01 00 0D 00 FC 00 D8 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1B9D230", //02 00 0D 00 E4 00 18 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1B9D240", //03 00 0D 00 FC 00 58 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BA2010", //00 00 0D 00 E4 00 98 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BA2020", //01 00 0D 00 FC 00 D8 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BA2030", //02 00 0D 00 E4 00 18 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BA2040", //03 00 0D 00 FC 00 58 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1BA6E10", //00 00 17 00 C0 00 E0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1BA6E20", //01 00 17 00 A0 00 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "17",
+    "adress": "1BA6E30", //02 00 17 00 D4 01 40 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1BA6E40", //03 00 06 00 88 01 F0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1BA6E50", //04 00 0A 00 CC 01 E0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1BA6E60", //05 00 06 00 8C 01 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BA6E70", //06 00 0D 00 A4 00 6C 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1BA6E80", //07 00 24 00 94 00 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAEC10", //00 00 01 00 AC 01 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAEC20", //01 00 01 00 A8 02 3C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAEC30", //02 00 01 00 90 04 AC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAEC40", //03 00 01 00 B4 02 0C 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAEC50", //04 00 01 00 80 03 64 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAEC60", //05 00 01 00 40 03 E8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BAEC90", //08 00 0D 00 64 04 60 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BAECA0", //09 00 0D 00 F4 04 34 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1BAECB0", //0A 00 1D 00 30 06 60 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAECC0", //0B 00 01 00 1C 05 00 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAECD0", //0C 00 01 00 30 06 EC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAECF0", //0E 00 01 00 A8 02 3C 00 00 00 00 04 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAED00", //0F 00 01 00 AC 01 00 01 00 00 00 04 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BAED10", //10 00 01 00 90 04 AC 00 00 00 00 04 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1BB3A10", //00 00 16 00 84 01 F8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1BB3A20", //01 00 16 00 14 02 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1BB3A30", //02 00 16 00 88 02 A8 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1BB3A40", //03 00 16 00 50 05 84 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1BB3A50", //04 00 16 00 A8 05 58 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "27",
+    "adress": "1BB3A60", //05 00 27 00 DC 00 24 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1BB3A70", //06 00 24 00 E8 02 D0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0C",
+    "adress": "1BB3A80", //07 00 0C 00 84 04 74 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1BB3A90", //08 00 06 00 90 03 94 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1BB3AA0", //09 00 06 00 F4 03 84 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "01",
+    "adress": "1BB3AB0", //0A 00 01 00 80 03 5C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1BB3AC0", //0B 00 06 00 70 03 50 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "10",
+    "adress": "1BC5410", //00 00 10 00 F0 02 B0 00 00 00 00 08 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "19",
+    "adress": "1BC5420", //01 00 19 00 4C 01 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1BC5430", //02 00 00 00 4C 02 10 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1BC5440", //03 00 00 00 E8 02 14 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0A",
+    "adress": "1BC5450", //04 00 0A 00 80 03 18 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1BC5460", //05 00 1D 00 F4 03 D0 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "00",
+    "adress": "1BC5470", //06 00 00 00 68 03 90 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1BC5480", //07 00 0F 00 14 02 78 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BC5490", //08 00 04 00 18 01 98 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+/*
+  {
+    "monsterId": "11",
+    "adress": "1BC54A0", //09 00 11 00 B0 03 9C 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "11",
+    "adress": "1BC54B0", //0A 00 11 00 44 04 5C 00 01 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  */
+  {
+    "monsterId": "0D",
+    "adress": "1BC54C0", //0B 00 0D 00 C0 01 94 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BC54D0", //0C 00 0D 00 F0 01 D8 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BC54E0", //0D 00 0D 00 28 02 B8 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BC54F0", //0E 00 0D 00 70 02 8C 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0F",
+    "adress": "1BC5500", //0F 00 0F 00 04 05 78 00 00 00 00 00 00 00 00 000
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BC5510", //10 00 0D 00 88 02 78 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BC5520", //11 00 0D 00 F0 02 78 01 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BCBC10", //00 00 04 00 80 00 88 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BCBC20", //01 00 04 00 68 00 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BCBC30", //02 00 04 00 50 00 58 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BCBC40", //03 00 04 00 20 00 7C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BCBC50", //04 00 04 00 28 00 4C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BCBC60", //05 00 04 00 7C 00 44 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "04",
+    "adress": "1BCEC10", //00 00 04 00 D4 00 CC 00 00 01 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1BCEC20", //01 00 06 00 E4 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "06",
+    "adress": "1BCEC30", //02 00 06 00 58 01 20 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1D",
+    "adress": "1BCEC40", //03 00 1D 00 2C 01 50 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "16",
+    "adress": "1BD2E10", //00 00 16 00 20 00 84 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1BD2E20", //01 00 22 00 24 01 B0 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1BD2E30", //02 00 22 00 98 01 FC 01 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1BD2E40", //03 00 14 00 B4 00 30 02 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1BD2E50", //04 00 14 00 68 01 50 01 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "22",
+    "adress": "1BD2E60", //05 00 22 00 48 00 3C 01 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1C",
+    "adress": "1BD7C10", //00 00 1C 00 EC 00 6C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1BD7C20", //01 00 1F 00 60 01 4C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1BD7C30", //02 00 07 00 08 02 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1BD7C40", //03 00 1F 00 7C 02 34 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1BD7C50", //04 00 1F 00 E0 02 2C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1BD7C60", //05 00 1F 00 90 03 3C 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1BD7C70", //06 00 1F 00 68 04 3C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1BD7C80", //07 00 1F 00 D0 04 54 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1F",
+    "adress": "1BD7C90", //08 00 1F 00 80 05 3C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1BD7CA0", //09 00 07 00 F0 03 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "07",
+    "adress": "1BD7CB0", //0A 00 07 00 40 03 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "23",
+    "adress": "1BDB210", //00 00 23 00 14 01 AC 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BDB220", //01 00 0D 00 7C 00 A4 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "1A",
+    "adress": "1BDB230", //02 00 1A 00 A4 00 70 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "14",
+    "adress": "1BDB240", //03 00 14 00 58 01 80 00 02 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "24",
+    "adress": "1BDB250", //04 00 24 00 AC 02 A0 00 00 00 00 00 FF 00 00 00
+    "nodeId": "IceIsland"
+  },
+  {
+    "monsterId": "0D",
+    "adress": "1BDB260", //0A 00 0D 00 38 02 44 00 00 00 00 00 00 00 00 00
+    "nodeId": "IceIsland"
+  }
+]

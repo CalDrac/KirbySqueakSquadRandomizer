@@ -9,6 +9,7 @@ namespace KirbySqueakSquadRandomizer
     internal class Options
     {
         public string path { get; set; }
-        public Boolean isBossW1_6Randomized { get; set; }
+        public Boolean isBossRandomized { get; set; }
+        public Boolean isMonsterRandomized { get; set; }
     }
 }

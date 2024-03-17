@@ -17,12 +17,14 @@
             <ColumnDefinition Width="314.241"/>
         </Grid.ColumnDefinitions>
         <Label Content="File name :" HorizontalAlignment="Left" Margin="37,72,0,0" VerticalAlignment="Top" Height="26" Width="111"/>
-        <Label x:Name="labelFilename" Content="No file selected" HorizontalAlignment="Left" Margin="153,72,0,0" VerticalAlignment="Top" Width="250" Height="26" FontSize="10"/>
+        <Label x:Name="labelFilename" Content="No file selected" HorizontalAlignment="Left" Margin="177,72,0,0" VerticalAlignment="Top" Width="226" Height="26" FontSize="10"/>
         <Button x:Name="BrowseButton" Content="Browse ..." HorizontalAlignment="Left" Margin="408,75,0,0" VerticalAlignment="Top" Click="Button_Click" Height="20" Width="53" RenderTransformOrigin="0.557,0.602"/>
         <Label Content="Options" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Height="26" Width="52"/>
         <Button x:Name="GenerateButton" Content="Generate" HorizontalAlignment="Center" Margin="0,177,0,0" VerticalAlignment="Top" Click="GenerateButton_Click" Height="20" Width="52"/>
-        <Label Content="Randomize bosses :" HorizontalAlignment="Left" Margin="37,103,0,0" VerticalAlignment="Top" Height="28" Width="117"/>
-        <CheckBox x:Name="bossRandomizerW1_6Check" Content="" HorizontalAlignment="Left" Margin="153,109,0,0" VerticalAlignment="Top" Width="17" />
+        <Label Content="Randomize bosses :" HorizontalAlignment="Left" Margin="37,99,0,0" VerticalAlignment="Top" Height="28" Width="117"/>
+        <CheckBox x:Name="bossRandomizerCheck" Content="" HorizontalAlignment="Left" Margin="177,105,0,0" VerticalAlignment="Top" Width="17" />
+        <Label Content="Randomize monsters :" HorizontalAlignment="Left" Margin="37,127,0,0" VerticalAlignment="Top" Height="28" Width="135"/>
+        <CheckBox x:Name="monsterRandomizerCheck" Content="" HorizontalAlignment="Left" Margin="177,133,0,0" VerticalAlignment="Top" Width="17" />
 
 
     </Grid>
