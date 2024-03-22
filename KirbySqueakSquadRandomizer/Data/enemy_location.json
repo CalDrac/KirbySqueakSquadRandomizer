@@ -194,27 +194,27 @@
   },
   {
     "monsterId": "0D",
-    "adress": "010A7420", //01 00 0D 00 F8 01 38 00 00 00 00 00 00 00 00 00
+    "adress": "010AC020", //01 00 0D 00 F8 01 38 00 00 00 00 00 00 00 00 00
     "nodeId": "PrismPlains"
   },
   {
     "monsterId": "0D",
-    "adress": "010A7430", //02 00 0D 00 68 02 3C 00 00 00 00 00 00 00 00 00
+    "adress": "010AC030", //02 00 0D 00 68 02 3C 00 00 00 00 00 00 00 00 00
     "nodeId": "PrismPlains"
   },
   {
     "monsterId": "0D",
-    "adress": "010A7440", //03 00 0D 00 E8 02 48 00 00 00 00 00 00 00 00 00
+    "adress": "010AC040", //03 00 0D 00 E8 02 48 00 00 00 00 00 00 00 00 00
     "nodeId": "PrismPlains"
   },
   {
     "monsterId": "0A",
-    "adress": "010A7450", //04 00 0A 00 C4 02 8C 00 00 00 00 00 FF 00 00 00
+    "adress": "010AC050", //04 00 0A 00 C4 02 8C 00 00 00 00 00 FF 00 00 00
     "nodeId": "PrismPlains"
   },
   {
     "monsterId": "14",
-    "adress": "010A7460", //05 00 14 00 B0 03 80 00 00 00 00 00 FF 00 00 00
+    "adress": "010AC060", //05 00 14 00 B0 03 80 00 00 00 00 00 FF 00 00 00
     "nodeId": "PrismPlains"
   },
   {
@@ -749,62 +749,62 @@
   },
   {
     "monsterId": "27",
-    "adress": "01473210", //00 00 00 00 90 00 D0 00 00 00 00 00 FF 00 00 00
+    "adress": "14C9610", //00 00 00 00 90 00 D0 00 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473220", //01 00 14 00 F4 00 D0 00 00 00 00 00 FF 00 00 00
+    "adress": "14C9620", //01 00 14 00 F4 00 D0 00 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473230", //02 00 18 00 90 00 D0 03 02 00 00 00 FF 00 00 00
+    "adress": "14C9630", //02 00 18 00 90 00 D0 03 02 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473240", //03 00 18 00 10 01 20 01 02 00 00 00 FF 00 00 00
+    "adress": "14C9640", //03 00 18 00 10 01 20 01 02 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473250", //04 00 14 00 5C 00 FC 02 00 00 00 00 FF 00 00 00
+    "adress": "14C96150", //04 00 14 00 5C 00 FC 02 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473260", //05 00 18 00 FC 00 80 02 00 00 00 00 FF 00 00 00
+    "adress": "14C9660", //05 00 18 00 FC 00 80 02 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473270", //06 00 22 00 60 00 90 01 01 00 00 00 FF 00 00 00
+    "adress": "14C9670", //06 00 22 00 60 00 90 01 01 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473280", //07 00 06 00 6C 00 20 01 00 00 00 00 FF 00 00 00
+    "adress": "14C9680", //07 00 06 00 6C 00 20 01 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "01473290", //08 00 14 00 30 01 FC 02 00 00 00 00 FF 00 00 00
+    "adress": "14C9690", //08 00 14 00 30 01 FC 02 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "014732A0", //09 00 17 00 34 01 60 03 00 00 00 00 FF 00 00 00
+    "adress": "14C96A0", //09 00 17 00 34 01 60 03 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "014732B0", //0A 00 17 00 60 00 60 03 00 00 00 00 FF 00 00 00
+    "adress": "14C96B0", //0A 00 17 00 60 00 60 03 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
     "monsterId": "27",
-    "adress": "014732C0", //0B 00 18 00 8C 00 80 02 00 00 00 00 FF 00 00 00
+    "adress": "14C96C0", //0B 00 18 00 8C 00 80 02 00 00 00 00 FF 00 00 00
     "nodeId": "NatureNotch"
   },
   {
