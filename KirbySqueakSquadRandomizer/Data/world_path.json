@@ -88,38 +88,41 @@
   {
     "fromId": "IceIsland",
     "toId": "SecretSea",
-     
-    "requiredItems": [
-      "Star seal 1",
-      "Star seal 2",
-      "Star seal 3",
-      "Star seal 4",
-      "Star seal 5"
-    ]
-  },
-  {
-    "fromId": "SecretSea",
-    "toId": "SecretSeaEX",
-     
+
     "requiredItems": [
       "Star seal 1",
       "Star seal 2",
       "Star seal 3",
       "Star seal 4",
       "Star seal 5",
+      "Daroach badge"
+    ]
+  },
+  {
+    "fromId": "SecretSea",
+    "toId": "SecretSeaEX",
+
+    "requiredItems": [
+      "Star seal 1",
+      "Star seal 2",
+      "Star seal 3",
+      "Star seal 4",
+      "Star seal 5",
+      "Daroach badge",
       "Secret Sea key"
     ]
   },
   {
     "fromId": "SecretSea",
     "toId": "GambleGalaxy",
-     
+
     "requiredItems": [
       "Star seal 1",
       "Star seal 2",
       "Star seal 3",
       "Star seal 4",
-      "Star seal 5"
+      "Star seal 5",
+      "Daroach badge"
     ]
   }
 ]

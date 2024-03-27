@@ -26,6 +26,7 @@ namespace KirbySqueakSquadRandomizer
             ClassicSettingsWindow classicSettingsWindow = new ClassicSettingsWindow();
             classicSettingsWindow.Show();
             this.Close();
+            //TestDoublons.Test(null);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
