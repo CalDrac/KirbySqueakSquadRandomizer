@@ -9,13 +9,29 @@
 
   <ItemGroup>
     <None Remove="Data\bossLevel_data.json" />
+    <None Remove="Data\enemy_data.json" />
+    <None Remove="Data\enemy_location.json" />
     <None Remove="Data\item_data.json" />
     <None Remove="Data\item_source.json" />
+    <None Remove="Data\miniboss_location.json" />
+    <None Remove="Data\squeaks_location.json" />
     <None Remove="Data\world_node.json" />
     <None Remove="Data\world_path.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Data\squeaks_location.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\miniboss_location.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\enemy_location.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\enemy_data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\bossLevel_data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

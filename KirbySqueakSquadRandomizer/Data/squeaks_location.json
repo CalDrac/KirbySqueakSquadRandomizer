@@ -1,0 +1,19 @@
+[
+  /*
+  {
+    "monsterId": "",
+    "adress": "", //
+    "nodeId": ""
+  },
+    {
+    "monsterId": "16",
+    "adress": "0108F650", //04 00 17 00 D8 00 7C 00 01 00 00 00 FF 00 00 00
+    "nodeId": "PrismPlains"
+  }
+  */
+  {
+    "monsterId": "42",
+    "adress": "0109F430", //02 00 35 00 EC 00 74 00 00 00 00 09 FF 00 00 00
+    "nodeId": "PrismPlain"
+  }
+]

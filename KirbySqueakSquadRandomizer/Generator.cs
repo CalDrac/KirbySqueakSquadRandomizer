@@ -46,12 +46,39 @@ namespace KirbySqueakSquadRandomizer
             var locations = LoadJson<Location>("Data\\item_source.json", new Location());
             var regions = LoadJson<Region>("Data\\world_path.json", new Region());
             var bossLevels = LoadJson<BossLevel>("Data\\bossLevel_data.json", new BossLevel());
+            var monsters = LoadJson<Enemy>("Data\\enemy_data.json", new Enemy());
             
+            var baseMonstersLocation = LoadJson<EnemyLocation>("Data\\enemy_location.json", new EnemyLocation());
+
             var rnd = new Random();
             var randBossLevels = bossLevels.OrderBy(boss => rnd.Next()).ToList();
+            var randMonsterLocation = baseMonstersLocation.OrderBy(monster => rnd.Next()).ToList();
+
             var spoilerLog = "";
             byte[] otherData = File.ReadAllBytes(opt.path);
-            if (opt.isBossW1_6Randomized)
+
+            if (opt.isMonsterRandomized)
+            {
+                //randomize monsters
+                spoilerLog += "New monster".PadRight(20) + " | Old monster \n";
+
+                for (int i = 0; i < randMonsterLocation.Count ; i++)
+                {
+                    var monsterLocation = randMonsterLocation[i];
+                    var baseMonster = baseMonstersLocation[i];
+                    var adr = Convert.ToInt32(baseMonster.adress, 16); 
+                    otherData[adr] = Convert.ToByte(monsterLocation.monsterId, 16);
+                    var firstMonster = monsters.First(m => m.monsterId == monsterLocation.monsterId).name.PadRight(20);
+                    var secondMonster = monsters.First(m => m.monsterId == baseMonster.monsterId).name;
+                    spoilerLog += firstMonster
+                        + " | " + secondMonster + "\n";
+                }
+
+                spoilerLog += "-------------------------------------------------";
+                spoilerLog += "\n\n";
+            }
+
+            if (opt.isBossRandomized)
             {
                 spoilerLog += "New boss".PadRight(20) + " | Old boss \n";
                 for (int j = 0; j < randBossLevels.Count; j++)
@@ -67,6 +94,7 @@ namespace KirbySqueakSquadRandomizer
                         otherData[adr + i] = val;
                     }
                 }
+                spoilerLog += "-------------------------------------------------";
                 spoilerLog += "\n\n";
             }
             

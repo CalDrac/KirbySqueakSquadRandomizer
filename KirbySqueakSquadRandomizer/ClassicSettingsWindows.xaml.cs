@@ -67,7 +67,8 @@ namespace KirbySqueakSquadRandomizer
         private void SetOptions(Options opt)
         {
             opt.path = romPath;
-            opt.isBossW1_6Randomized = bossRandomizerW1_6Check.IsChecked.Value;
+            opt.isBossRandomized = bossRandomizerCheck.IsChecked.Value;
+            opt.isMonsterRandomized = monsterRandomizerCheck.IsChecked.Value;
         }
 
  
