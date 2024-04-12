@@ -57,8 +57,13 @@ namespace KirbySqueakSquadRandomizer
             SetOptions(opt);
             if (Generator.generateNewRomClassic(opt))
             {
-                
+                if (opt.isPowerBlocking)
+                {
+                    BlockKirbyPowersSettingsWindows blockingWindow = new BlockKirbyPowersSettingsWindows();
+                    blockingWindow.Show();
+                }
                 this.Close();
+
                 return;
             }
 
@@ -81,6 +86,13 @@ namespace KirbySqueakSquadRandomizer
                 bossRandomizerCheck.IsEnabled = false;
                 bossRandomizerCheck.IsChecked = false;
             }
+        }
+
+        private void GoToCurseButton_Click(object sender, RoutedEventArgs e)
+        {
+            BlockKirbyPowersSettingsWindows blockingWindow = new BlockKirbyPowersSettingsWindows();
+            blockingWindow.Show();
+            this.Close();
         }
     }
 }

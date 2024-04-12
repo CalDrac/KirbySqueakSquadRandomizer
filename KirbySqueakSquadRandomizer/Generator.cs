@@ -102,22 +102,6 @@ namespace KirbySqueakSquadRandomizer
                     }
                 }
                 //placement du reste des items
-                /*
-                for (int i = 0; i < items.Count; i++)
-                {
-                    var pickedLocation = randLocations[i];
-                    var indexToModify = newItems.IndexOf(newItems.First(it => it.Name == pickedLocation.name));
-                    newItems[indexToModify].Name = items[i].Name;
-                    newItems[indexToModify].ItemId = items[i].ItemId;
-                    var pickedLocationReqPwrs = pickedLocation.requiredPowers;
-                    pickedLocationReqPwrs.RemoveAll(rp => alreadyPickedPowers.Contains(rp));
-                    if (pickedLocationReqPwrs.Count != 0)
-                    {
-                        //placer un scroll ?
-                    }
-                }
-                */
-
                 while(items.Count > 0)
                 {
                     var pickedLocation = randLocations.First();
