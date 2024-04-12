@@ -79,13 +79,12 @@ namespace KirbySqueakSquadRandomizer
 
         private void powerBlockerCheck_Checked(object sender, RoutedEventArgs e)
         {
-            if (powerBlockerCheck.IsChecked.Value)
-            {
-                monsterRandomizerCheck.IsEnabled = false;
-                monsterRandomizerCheck.IsChecked = false;
-                bossRandomizerCheck.IsEnabled = false;
-                bossRandomizerCheck.IsChecked = false;
-            }
+
+            monsterRandomizerCheck.IsEnabled = false;
+            monsterRandomizerCheck.IsChecked = false;
+            bossRandomizerCheck.IsEnabled = false;
+            bossRandomizerCheck.IsChecked = false;
+
         }
 
         private void GoToCurseButton_Click(object sender, RoutedEventArgs e)
@@ -93,6 +92,12 @@ namespace KirbySqueakSquadRandomizer
             BlockKirbyPowersSettingsWindows blockingWindow = new BlockKirbyPowersSettingsWindows();
             blockingWindow.Show();
             this.Close();
+        }
+
+        private void powerBlockerCheck_Unchecked(object sender, RoutedEventArgs e)
+        {
+            monsterRandomizerCheck.IsEnabled = true;
+            bossRandomizerCheck.IsEnabled = true;
         }
     }
 }

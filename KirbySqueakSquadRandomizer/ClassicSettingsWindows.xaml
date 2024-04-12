@@ -26,7 +26,7 @@
         <Label Content="Randomize monsters :" HorizontalAlignment="Left" Margin="37,127,0,0" VerticalAlignment="Top" Height="28" Width="135"/>
         <CheckBox x:Name="monsterRandomizerCheck" Content="" HorizontalAlignment="Left" Margin="177,133,0,0" VerticalAlignment="Top" Width="17" />
         <Label Content="Power blocker :" HorizontalAlignment="Left" Margin="37,157,0,0" VerticalAlignment="Top" Height="28" Width="135"/>
-        <CheckBox x:Name="powerBlockerCheck" Content="" HorizontalAlignment="Left" Margin="177,163,0,0" VerticalAlignment="Top" Width="17" Checked="powerBlockerCheck_Checked" />
+        <CheckBox x:Name="powerBlockerCheck" Content="" HorizontalAlignment="Left" Margin="177,163,0,0" VerticalAlignment="Top" Width="17" Checked="powerBlockerCheck_Checked" Unchecked="powerBlockerCheck_Unchecked" />
         <Button x:Name="GenerateButton_Copy" Content="Go to curse" HorizontalAlignment="Left" Margin="366,201,0,0" VerticalAlignment="Top" Click="GoToCurseButton_Click" Height="20" Width="70"/>
 
 
