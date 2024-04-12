@@ -12,5 +12,6 @@ namespace KirbySqueakSquadRandomizer.Model
         public string name { get; set; }
         public string type { get; set; }
         public string nodeId { get; set; }
+        public List<string> requiredPowers { get; set; }
     }
 }

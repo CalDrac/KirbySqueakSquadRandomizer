@@ -69,8 +69,18 @@ namespace KirbySqueakSquadRandomizer
             opt.path = romPath;
             opt.isBossRandomized = bossRandomizerCheck.IsChecked.Value;
             opt.isMonsterRandomized = monsterRandomizerCheck.IsChecked.Value;
+            opt.isPowerBlocking = powerBlockerCheck.IsChecked.Value;
         }
 
- 
+        private void powerBlockerCheck_Checked(object sender, RoutedEventArgs e)
+        {
+            if (powerBlockerCheck.IsChecked.Value)
+            {
+                monsterRandomizerCheck.IsEnabled = false;
+                monsterRandomizerCheck.IsChecked = false;
+                bossRandomizerCheck.IsEnabled = false;
+                bossRandomizerCheck.IsChecked = false;
+            }
+        }
     }
 }
