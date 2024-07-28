@@ -69,6 +69,26 @@ namespace KirbySqueakSquadRandomizer
             byte[] otherData = File.ReadAllBytes(opt.path);
             if (opt.isPowerBlocking) //power blocking or evertything else for now
             {
+                if (opt.isBossRandomized)
+                {
+                    spoilerLog += "New boss".PadRight(20) + " | Old boss \n";
+                    for (int j = 0; j < randBossLevels.Count; j++)
+                    {
+                        var bossLevel = randBossLevels[j];
+                        String[] byteLink = bossLevel.dataBlock.Split(' ');
+                        var adr = Convert.ToInt32(bossLevels[j].adress, 16);
+                        spoilerLog += bossLevel.name.PadRight(20) + " | " + bossLevels[j].name + "\n";
+                        locations.First(x => x.name.Contains(bossLevel.name)).nodeId = bossLevels[j].nodeId;
+                        for (int i = 0; i < byteLink.Length; i++)
+                        {
+                            var val = Convert.ToByte(byteLink[i], 16);
+                            otherData[adr + i] = val;
+                        }
+                    }
+                    spoilerLog += "-------------------------------------------------";
+                    spoilerLog += "\n\n";
+                }
+
                 spoilerLog += "New item".PadRight(20) + " | Old item \n";
                 List<String> reqItemsStr = getRequiredItems(regions);
                 var requiredItems = items.Where(i => reqItemsStr.Contains(i.Name)).ToList();
@@ -138,6 +158,7 @@ namespace KirbySqueakSquadRandomizer
             }
             else
             {
+                
                 if (opt.isMonsterRandomized)
                 {
                     //randomize monsters
@@ -158,7 +179,7 @@ namespace KirbySqueakSquadRandomizer
                     spoilerLog += "-------------------------------------------------";
                     spoilerLog += "\n\n";
                 }
-
+                
                 if (opt.isBossRandomized)
                 {
                     spoilerLog += "New boss".PadRight(20) + " | Old boss \n";
