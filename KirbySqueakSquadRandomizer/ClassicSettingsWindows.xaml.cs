@@ -79,12 +79,8 @@ namespace KirbySqueakSquadRandomizer
 
         private void powerBlockerCheck_Checked(object sender, RoutedEventArgs e)
         {
-
             monsterRandomizerCheck.IsEnabled = false;
             monsterRandomizerCheck.IsChecked = false;
-            bossRandomizerCheck.IsEnabled = false;
-            bossRandomizerCheck.IsChecked = false;
-
         }
 
         private void GoToCurseButton_Click(object sender, RoutedEventArgs e)
