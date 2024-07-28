@@ -57,8 +57,13 @@ namespace KirbySqueakSquadRandomizer
             SetOptions(opt);
             if (Generator.generateNewRomClassic(opt))
             {
-                
+                if (opt.isPowerBlocking)
+                {
+                    BlockKirbyPowersSettingsWindows blockingWindow = new BlockKirbyPowersSettingsWindows();
+                    blockingWindow.Show();
+                }
                 this.Close();
+
                 return;
             }
 
@@ -69,8 +74,26 @@ namespace KirbySqueakSquadRandomizer
             opt.path = romPath;
             opt.isBossRandomized = bossRandomizerCheck.IsChecked.Value;
             opt.isMonsterRandomized = monsterRandomizerCheck.IsChecked.Value;
+            opt.isPowerBlocking = powerBlockerCheck.IsChecked.Value;
         }
 
- 
+        private void powerBlockerCheck_Checked(object sender, RoutedEventArgs e)
+        {
+            monsterRandomizerCheck.IsEnabled = false;
+            monsterRandomizerCheck.IsChecked = false;
+        }
+
+        private void GoToCurseButton_Click(object sender, RoutedEventArgs e)
+        {
+            BlockKirbyPowersSettingsWindows blockingWindow = new BlockKirbyPowersSettingsWindows();
+            blockingWindow.Show();
+            this.Close();
+        }
+
+        private void powerBlockerCheck_Unchecked(object sender, RoutedEventArgs e)
+        {
+            monsterRandomizerCheck.IsEnabled = true;
+            bossRandomizerCheck.IsEnabled = true;
+        }
     }
 }

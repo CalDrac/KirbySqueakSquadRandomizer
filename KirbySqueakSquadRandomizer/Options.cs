@@ -11,5 +11,6 @@ namespace KirbySqueakSquadRandomizer
         public string path { get; set; }
         public Boolean isBossRandomized { get; set; }
         public Boolean isMonsterRandomized { get; set; }
+        public Boolean isPowerBlocking { get; set; }
     }
 }

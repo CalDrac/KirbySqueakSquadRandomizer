@@ -1,0 +1,18 @@
+﻿<Window x:Class="KirbySqueakSquadRandomizer.BlockKirbyPowersSettingsWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KirbySqueakSquadRandomizer"
+        mc:Ignorable="d"
+        Title="Block Kirby Powers" Height="150" Width="500" ResizeMode="NoResize">
+    <Grid Margin="10,0,10,-6" Width="500" Height="325">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="InfoLabel" Content="Kirby powers' are blocked, you need to collect the scrolls to get them back." Margin="23,10,23,288" />
+        <Label x:Name="InfoLabel_Copy" Content="Keep this window open for the curse to work." Margin="121,42,106,244" />
+        <Label x:Name="Game_status_Label" Content="Curse status : " Margin="121,77,287,209" />
+        <Label x:Name="Game_status_value" Content="" Margin="206,77,138,209" />
+    </Grid>
+</Window>
