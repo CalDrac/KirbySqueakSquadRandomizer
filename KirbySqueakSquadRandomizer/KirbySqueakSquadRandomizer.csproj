@@ -45,6 +45,9 @@
     <Content Include="Data\world_node.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\level_data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\world_path.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

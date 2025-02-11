@@ -75,6 +75,7 @@ namespace KirbySqueakSquadRandomizer
             opt.isBossRandomized = bossRandomizerCheck.IsChecked.Value;
             opt.isMonsterRandomized = monsterRandomizerCheck.IsChecked.Value;
             opt.isPowerBlocking = powerBlockerCheck.IsChecked.Value;
+            opt.isLevelRando = levelRandomizerCheck.IsChecked.Value;
         }
 
         private void powerBlockerCheck_Checked(object sender, RoutedEventArgs e)

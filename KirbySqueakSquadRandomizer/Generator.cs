@@ -58,37 +58,43 @@ namespace KirbySqueakSquadRandomizer
             var regions = LoadJson<Region>("Data\\world_path.json", new Region());
             var bossLevels = LoadJson<BossLevel>("Data\\bossLevel_data.json", new BossLevel());
             var monsters = LoadJson<Enemy>("Data\\enemy_data.json", new Enemy());
+            var levels = LoadJson<Level>("Data\\level_data.json", new Level());
 
             var baseMonstersLocation = LoadJson<EnemyLocation>("Data\\enemy_location.json", new EnemyLocation());
 
             var rnd = new Random();
             var randBossLevels = bossLevels.OrderBy(boss => rnd.Next()).ToList();
+            var randLevels = levels.OrderBy(lvl=> rnd.Next()).ToList();
             var randMonsterLocation = baseMonstersLocation.OrderBy(monster => rnd.Next()).ToList();
 
             var spoilerLog = "";
             byte[] otherData = File.ReadAllBytes(opt.path);
+            if (opt.isLevelRando)
+            {
+                for(int i = 0; i < randLevels.Count; i++)
+                {
+                    var level = randLevels[i];
+                    var adr = Convert.ToInt32(levels[i].adress, 16);
+                    spoilerLog +=  level.worldNumber + "-" + level.stage + " | " + levels[i].worldNumber + "-" + levels[i].stage +  "\n";
+                    var worldAdr = adr + 1;
+                    var stageAdr = adr + 3;
+                    byte byteWorld = Encoding.ASCII.GetBytes(level.worldNumber)[0];
+                    byte byteStage = Encoding.ASCII.GetBytes(level.stage)[0];
+                    otherData[worldAdr] = byteWorld;
+                    otherData[stageAdr] = byteStage;
+                    foreach (Location item in locations.Where(loc => loc.stage == levels[i].stage && loc.nodeId == levels[i].worldId).ToList())
+                    {
+                        item.stage = level.stage;
+                        item.nodeId = level.worldId;   
+                    }
+                }
+            }
             if (opt.isPowerBlocking) //power blocking or evertything else for now
             {
                 if (opt.isBossRandomized)
                 {
-                    spoilerLog += "New boss".PadRight(20) + " | Old boss \n";
-                    for (int j = 0; j < randBossLevels.Count; j++)
-                    {
-                        var bossLevel = randBossLevels[j];
-                        String[] byteLink = bossLevel.dataBlock.Split(' ');
-                        var adr = Convert.ToInt32(bossLevels[j].adress, 16);
-                        spoilerLog += bossLevel.name.PadRight(20) + " | " + bossLevels[j].name + "\n";
-                        locations.First(x => x.name.Contains(bossLevel.name)).nodeId = bossLevels[j].nodeId;
-                        for (int i = 0; i < byteLink.Length; i++)
-                        {
-                            var val = Convert.ToByte(byteLink[i], 16);
-                            otherData[adr + i] = val;
-                        }
-                    }
-                    spoilerLog += "-------------------------------------------------";
-                    spoilerLog += "\n\n";
+                    spoilerLog = randomizeBoss(locations, bossLevels, randBossLevels, spoilerLog, otherData);
                 }
-
                 spoilerLog += "New item".PadRight(20) + " | Old item \n";
                 List<String> reqItemsStr = getRequiredItems(regions);
                 var requiredItems = items.Where(i => reqItemsStr.Contains(i.Name)).ToList();
@@ -122,20 +128,20 @@ namespace KirbySqueakSquadRandomizer
                     }
                 }
                 //placement du reste des items
-                while(items.Count > 0)
+                while (items.Count > 0)
                 {
                     var pickedLocation = randLocations.First();
                     var indexToModify = newItems.IndexOf(newItems.First(it => it.Name == pickedLocation.name));
                     newItems[indexToModify].Name = items.First().Name;
                     newItems[indexToModify].ItemId = items.First().ItemId;
 
-                    if (items.First().Name.Contains("scroll")) 
+                    if (items.First().Name.Contains("scroll"))
                     {
                         alreadyPickedPowers.Add(items.First().Name.Replace(" scroll", ""));
                     }
 
                     randLocations.Remove(pickedLocation);
-                    
+
                     items.Remove(items.First());
                     var pickedLocationReqPwrs = pickedLocation.requiredPowers;
                     pickedLocationReqPwrs.RemoveAll(rp => alreadyPickedPowers.Contains(rp));
@@ -158,7 +164,6 @@ namespace KirbySqueakSquadRandomizer
             }
             else
             {
-                
                 if (opt.isMonsterRandomized)
                 {
                     //randomize monsters
@@ -179,25 +184,10 @@ namespace KirbySqueakSquadRandomizer
                     spoilerLog += "-------------------------------------------------";
                     spoilerLog += "\n\n";
                 }
-                
+
                 if (opt.isBossRandomized)
                 {
-                    spoilerLog += "New boss".PadRight(20) + " | Old boss \n";
-                    for (int j = 0; j < randBossLevels.Count; j++)
-                    {
-                        var bossLevel = randBossLevels[j];
-                        String[] byteLink = bossLevel.dataBlock.Split(' ');
-                        var adr = Convert.ToInt32(bossLevels[j].adress, 16);
-                        spoilerLog += bossLevel.name.PadRight(20) + " | " + bossLevels[j].name + "\n";
-                        locations.First(x => x.name.Contains(bossLevel.name)).nodeId = bossLevels[j].nodeId;
-                        for (int i = 0; i < byteLink.Length; i++)
-                        {
-                            var val = Convert.ToByte(byteLink[i], 16);
-                            otherData[adr + i] = val;
-                        }
-                    }
-                    spoilerLog += "-------------------------------------------------";
-                    spoilerLog += "\n\n";
+                    spoilerLog = randomizeBoss(locations, bossLevels, randBossLevels, spoilerLog, otherData);
                 }
 
                 spoilerLog += "New item".PadRight(20) + " | Old item \n";
@@ -246,6 +236,7 @@ namespace KirbySqueakSquadRandomizer
                     otherData[adr] = val;
                 }
             }
+            
             CommonOpenFileDialog openFileDialog1 = new CommonOpenFileDialog();
             openFileDialog1.InitialDirectory = "c:\\";
             openFileDialog1.IsFolderPicker = true;
@@ -262,6 +253,29 @@ namespace KirbySqueakSquadRandomizer
 
             File.WriteAllBytes(selectedFileName + "\\KSS_rando_spoiler.txt", Encoding.ASCII.GetBytes(spoilerLog));
             return true;
+        }
+
+        private static string randomizeBoss(List<Location> locations, List<BossLevel> bossLevels, List<BossLevel> randBossLevels, string spoilerLog, byte[] otherData)
+        {
+           
+            spoilerLog += "New boss".PadRight(20) + " | Old boss \n";
+            for (int j = 0; j < randBossLevels.Count; j++)
+            {
+                var bossLevel = randBossLevels[j];
+                String[] byteLink = bossLevel.dataBlock.Split(' ');
+                var adr = Convert.ToInt32(bossLevels[j].adress, 16);
+                spoilerLog += bossLevel.name.PadRight(20) + " | " + bossLevels[j].name + "\n";
+                locations.First(x => x.name.Contains(bossLevel.name)).nodeId = bossLevels[j].nodeId;
+                for (int i = 0; i < byteLink.Length; i++)
+                {
+                    var val = Convert.ToByte(byteLink[i], 16);
+                    otherData[adr + i] = val;
+                }
+            }
+            spoilerLog += "-------------------------------------------------";
+            spoilerLog += "\n\n";
+
+            return spoilerLog;
         }
 
         //Add scroll if a reqItem location has a reqPower

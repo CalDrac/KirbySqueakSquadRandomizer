@@ -3,6 +3,7 @@
     "name": "Beginning Notes",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "2",
     "RequiredPowers": []
 
   },
@@ -10,708 +11,826 @@
     "name": "Fire scroll",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "3",
     "RequiredPowers": [ "Animal" ]
   },
   {
     "name": "Sound player",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Green",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_1",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Prism Plains key",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Copy palette 1",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "King DeDeDe badge",
     "type": "ground",
     "nodeId": "PrismPlains",
+    "stage": "7",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_2",
     "type": "ground",
     "nodeId": "PrismPlainsEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Vitality half_1",
     "type": "ground",
     "nodeId": "PrismPlainsEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Animal scroll",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Kirby's Sounds",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Star seal 1",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Citrus",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Ghost medal_1",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Wheel scroll",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "3",
     "RequiredPowers": [ "Fire", "Wheel", "Metal" ]
   },
   {
     "name": "Copy palette 2",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "3",
     "RequiredPowers": [ "Bubble", "Fire", "Ice", "UFO", "Beam", "Spark", "Magic", "Fighter", "Bomb", "Sword" ]
   },
   {
     "name": "Graphic piece_3",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "3",
     "RequiredPowers": [ "Animal" ]
   },
   {
     "name": "Cutter scroll",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Beam scroll",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_4",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "5",
     "RequiredPowers": [ "Metal", "Hammer", "UFO", "Fire", "Throw" ]
   },
   {
     "name": "Nature Notch key",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "Mrs Moley badge",
     "type": "ground",
     "nodeId": "NatureNotch",
+    "stage": "7",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_5",
     "type": "ground",
     "nodeId": "NatureNotchEX",
+    "stage": "6",
     "RequiredPowers": [ "Hammer", "Metal" ]
   },
   {
     "name": "Secret Map_1",
     "type": "ground",
     "nodeId": "NatureNotchEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Vitality half_2",
     "type": "ground",
     "nodeId": "NatureNotchEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_6",
     "type": "ground",
     "nodeId": "CushyCloud",
-    "RequiredPowers": ["Bubble", "Fire", "UFO", "Beam", "Spark", "Magic", "Fighter", "Bomb", "Sword", "Laser","Hammer"]
+    "stage": "1",
+    "RequiredPowers": [ "Bubble", "Fire", "UFO", "Beam", "Spark", "Magic", "Fighter", "Bomb", "Sword", "Laser", "Hammer" ]
   },
   {
     "name": "Grape",
     "type": "ground",
     "nodeId": "CushyCloud",
-    "RequiredPowers": ["Hammer","Fire","UFO","Throw"]
+    "stage": "1",
+    "RequiredPowers": [ "Hammer", "Fire", "UFO", "Throw" ]
   },
   {
     "name": "Spark scroll",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Familiar Notes",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Star seal 2",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_7",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Secret Map_2",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Ghost medal_2",
     "type": "ground",
     "nodeId": "CushyCloud",
-    "RequiredPowers": ["Bomb","Cutter", "Laser", "UFO"]
+    "stage": "3",
+    "RequiredPowers": [ "Bomb", "Cutter", "Laser", "UFO" ]
   },
   {
     "name": "Lavender",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "4",
     "RequiredPowers": [ "Fire", "Hammer" ]
   },
   {
     "name": "HiJump scroll",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Cushy Cloud key",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Tornado scroll",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "Mecha-Kracko badge",
     "type": "ground",
     "nodeId": "CushyCloud",
+    "stage": "7",
     "RequiredPowers": []
   },
   {
     "name": "Orange",
     "type": "ground",
     "nodeId": "CushyCloudEX",
-    "RequiredPowers": ["Sword","Beam","UFO","Magic"]
+    "stage": "6",
+    "RequiredPowers": [ "Sword", "Beam", "UFO", "Magic" ]
   },
   {
     "name": "Graphic piece_8",
     "type": "ground",
     "nodeId": "CushyCloudEX",
+    "stage": "6",
     "RequiredPowers": [] //Any ability ?
   },
   {
     "name": "Vitality half_3",
     "type": "ground",
     "nodeId": "CushyCloudEX",
+    "stage": "6",
     "RequiredPowers": [] //Any ability ?
   },
   {
     "name": "Graphic piece_9",
     "type": "ground",
     "nodeId": "JamJungle",
-    "RequiredPowers": ["Cutter", "Bomb"]
+    "stage": "1",
+    "RequiredPowers": [ "Cutter", "Bomb" ]
   },
   {
     "name": "Shadow",
     "type": "ground",
     "nodeId": "JamJungle",
-    "RequiredPowers": ["HiJump","Laser"] //Tornado ?
+    "stage": "1",
+    "RequiredPowers": [ "HiJump", "Laser" ] //Tornado ?
   },
   {
     "name": "Bubble scroll",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Yellow",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Star seal 3",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Metal scroll",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Copy palette 3",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Vitality half_4",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_10",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Secret Map_3",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "4",
     "RequiredPowers": [ "Fire", "Hammer" ]
   },
   {
     "name": "Jam Jungle key",
     "type": "ground",
     "nodeId": "JamJungle",
-    "RequiredPowers": ["Fire", "Hammer"]
+    "stage": "4",
+    "RequiredPowers": [ "Fire", "Hammer" ]
   },
   {
     "name": "Laser scroll",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "Yadgaine badge",
     "type": "ground",
     "nodeId": "JamJungle",
+    "stage": "7",
     "RequiredPowers": []
   },
   {
     "name": "Ice scroll",
     "type": "ground",
     "nodeId": "JamJungleEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Party Notes",
     "type": "ground",
     "nodeId": "JamJungleEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Ghost medal_3",
     "type": "ground",
     "nodeId": "JamJungleEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Parasol scroll",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Enemy Sounds",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Star seal 4",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Ivory",
     "type": "ground",
     "nodeId": "VocalVolcano",
-    "RequiredPowers": ["Fire", "Ice", "Beam", "UFO"]
+    "stage": "2",
+    "RequiredPowers": [ "Fire", "Ice", "Beam", "UFO" ]
   },
   {
     "name": "Graphic piece_11",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Hammer scroll",
     "type": "ground",
     "nodeId": "VocalVolcano",
-    "RequiredPowers": ["Beam", "UFO"]
+    "stage": "2",
+    "RequiredPowers": [ "Beam", "UFO" ]
   },
   {
     "name": "Graphic piece_12",
     "type": "ground",
     "nodeId": "VocalVolcano",
-    "RequiredPowers": ["Hammer", "Metal"]
+    "stage": "3",
+    "RequiredPowers": [ "Hammer", "Metal" ]
   },
   {
     "name": "Ninja scroll",
     "type": "ground",
     "nodeId": "VocalVolcano",
-    "RequiredPowers": ["Hammer","Fire","UFO", "Throw"]
+    "stage": "3",
+    "RequiredPowers": [ "Hammer", "Fire", "UFO", "Throw" ]
   },
   {
     "name": "Vitality half_5",
     "type": "ground",
     "nodeId": "VocalVolcano",
-    "RequiredPowers": ["Metal"]
+    "stage": "3",
+    "RequiredPowers": [ "Metal" ]
   },
   {
     "name": "Secret Map_4",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Red",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Vocal Volcano key",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Bohboh badge",
     "type": "ground",
     "nodeId": "VocalVolcano",
+    "stage": "7",
     "RequiredPowers": []
   },
   {
     "name": "Copy palette 4",
     "type": "ground",
     "nodeId": "VocalVolcanoEX",
-    "RequiredPowers": ["Metal", "Hammer"]
+    "stage": "6",
+    "RequiredPowers": [ "Metal", "Hammer" ]
   },
   {
     "name": "Sleep scroll",
     "type": "ground",
     "nodeId": "VocalVolcanoEX",
+    "stage": "6",
     "RequiredPowers": [] // ???
   },
   {
     "name": "Ghost medal_4",
     "type": "ground",
     "nodeId": "VocalVolcanoEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Sound Effects",
     "type": "ground",
     "nodeId": "IceIsland",
-    "RequiredPowers": ["Wheel","Animal"]
+    "stage": "1",
+    "RequiredPowers": [ "Wheel", "Animal" ]
   },
   {
     "name": "Graphic piece_13",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Sword scroll",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Snow",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Star seal 5",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Fighter scroll",
     "type": "ground",
     "nodeId": "IceIsland",
-    "RequiredPowers": ["Hammer", "Metal"]
+    "stage": "3",
+    "RequiredPowers": [ "Hammer", "Metal" ]
   },
   {
     "name": "Graphic piece_14",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Vitality half_6",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Happy Notes",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Chalk",
     "type": "ground",
     "nodeId": "IceIsland",
-    "RequiredPowers": ["Cutter","Sword","Magic","Cupid","Ninja"]
+    "stage": "4",
+    "RequiredPowers": [ "Cutter", "Sword", "Magic", "Cupid", "Ninja" ]
   },
   {
     "name": "Ice Island key",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_15",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "Cupid scroll",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "Copy palette 5",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "5",
     "RequiredPowers": []
   },
   {
     "name": "Daroach badge",
     "type": "ground",
     "nodeId": "IceIsland",
+    "stage": "7",
     "RequiredPowers": []
   },
   {
     "name": "Cherry",
     "type": "ground",
     "nodeId": "IceIslandEX",
-    "RequiredPowers": ["Wheel"]
+    "stage": "6",
+    "RequiredPowers": [ "Wheel" ]
   },
   {
     "name": "Secret Map_5",
     "type": "ground",
     "nodeId": "IceIslandEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Ghost medal_5",
     "type": "ground",
     "nodeId": "IceIslandEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "White",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Secret Sounds",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Throw scroll",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Sapphire",
     "type": "ground",
     "nodeId": "SecretSea",
-    "RequiredPowers": ["Fire"]
+    "stage": "2",
+    "RequiredPowers": [ "Fire" ]
   },
   {
     "name": "Graphic piece_16",
     "type": "ground",
     "nodeId": "SecretSea",
-    "RequiredPowers": ["Fire"] //Hammer
+    "stage": "2",
+    "RequiredPowers": [ "Fire" ] //Hammer
   },
   {
     "name": "Ghost medal_6",
     "type": "ground",
     "nodeId": "SecretSea",
-    "RequiredPowers": ["Fire", "Hammer"]
+    "stage": "2",
+    "RequiredPowers": [ "Fire", "Hammer" ]
   },
   {
     "name": "Graphic piece_17",
     "type": "ground",
     "nodeId": "SecretSea",
-    "RequiredPowers": ["Fire"]
+    "stage": "3",
+    "RequiredPowers": [ "Fire" ]
   },
   {
     "name": "Spunky Notes",
     "type": "ground",
     "nodeId": "SecretSea",
-    "RequiredPowers": ["Fire","Beam","Bomb","Sword","UFO","Ice","Bubble","Magic"]
+    "stage": "3",
+    "RequiredPowers": [ "Fire", "Beam", "Bomb", "Sword", "UFO", "Ice", "Bubble", "Magic" ]
   },
   {
     "name": "Bomb scroll",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Ocean",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Magic scroll",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Secret Sea key",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "4",
     "RequiredPowers": []
   },
   {
     "name": "Chocolate",
     "type": "ground",
     "nodeId": "SecretSea",
-    "RequiredPowers": ["Wheel"]
+    "stage": "5",
+    "RequiredPowers": [ "Wheel" ]
   },
   {
     "name": "Meta Knight badge",
     "type": "ground",
     "nodeId": "SecretSea",
+    "stage": "7",
     "RequiredPowers": []
   },
   {
     "name": "Secret Map_6",
     "type": "ground",
     "nodeId": "SecretSeaEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_18",
     "type": "ground",
     "nodeId": "SecretSeaEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Vitality half_7",
     "type": "ground",
     "nodeId": "SecretSeaEX",
+    "stage": "6",
     "RequiredPowers": []
   },
   {
     "name": "Graphic piece_19",
     "type": "ground",
     "nodeId": "GambleGalaxy",
-    "RequiredPowers": ["Fire","Metal","Hammer"]
+    "stage": "1",
+    "RequiredPowers": [ "Fire", "Metal", "Hammer" ]
   },
   {
     "name": "Battle Notes",
     "type": "ground",
     "nodeId": "GambleGalaxy",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "UFO scroll",
     "type": "ground",
     "nodeId": "GambleGalaxy",
+    "stage": "1",
     "RequiredPowers": []
   },
   {
     "name": "Emerald",
     "type": "ground",
     "nodeId": "GambleGalaxy",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Secret Map_7",
     "type": "ground",
     "nodeId": "GambleGalaxy",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Ghost medal_7",
     "type": "ground",
     "nodeId": "GambleGalaxy",
+    "stage": "2",
     "RequiredPowers": []
   },
   {
     "name": "Carbon",
     "type": "ground",
     "nodeId": "GambleGalaxy",
-    "RequiredPowers": ["Animal"]
+    "stage": "3",
+    "RequiredPowers": [ "Animal" ]
   },
   {
     "name": "Secret Notes",
     "type": "ground",
     "nodeId": "GambleGalaxy",
-    "RequiredPowers": ["UFO","Fire","Hammer"]
+    "stage": "3",
+    "RequiredPowers": [ "UFO", "Fire", "Hammer" ]
   },
   {
     "name": "Vitality half_8",
     "type": "ground",
     "nodeId": "GambleGalaxy",
+    "stage": "3",
     "RequiredPowers": []
   },
   {
     "name": "Dark Nebula badge",
     "type": "ground",
     "nodeId": "GambleGalaxy",
+    "stage": "7",
     "RequiredPowers": []
   }
 ]
