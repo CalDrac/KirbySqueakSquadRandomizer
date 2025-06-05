@@ -9,12 +9,25 @@ namespace KirbySqueakSquadRandomizer.Model
 {
     class Item
     {
-        private string name;
-        private string itemId1;
-
-        public string Name { get => name; set => name = value; }
+        public string Name { get; set; }
         public string Adress { get; set; }
-        public string ItemId { get => itemId1; set => itemId1 = value; }
-        public string progressionType { get; set; }
+        public string ItemId { get; set; }
+        public string ProgressionType { get; set; }
+        public string LevelId { get; set; }
+        public string NewLevelId { get; set; }
+        public String[] RequiredPowers { get; set; }
+
+        public Item(Item item)
+        {
+            Name = item.Name;
+            Adress = item.Adress;
+            ItemId = item.ItemId;
+            ProgressionType = item.ProgressionType;
+            LevelId = item.LevelId;
+            NewLevelId = item.NewLevelId;
+            RequiredPowers = item.RequiredPowers;
+        }
+
+        public Item() { }
     }
 }

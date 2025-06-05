@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KirbySqueakSquadRandomizer.Model
 {
-    class Region
+    class OldRegion
     {
         public string fromId { get; set; }
         public string toId { get; set; }

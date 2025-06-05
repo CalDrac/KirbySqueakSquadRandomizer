@@ -7,7 +7,7 @@ using System.Web;
 
 namespace KirbySqueakSquadRandomizer.Model
 {
-    class Location
+    class OldLocation
     {
         public string name { get; set; }
         public string type { get; set; }

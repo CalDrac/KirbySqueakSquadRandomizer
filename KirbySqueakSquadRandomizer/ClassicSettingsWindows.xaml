@@ -24,10 +24,10 @@
         <Label Content="Randomize bosses :" HorizontalAlignment="Left" Margin="37,99,0,0" VerticalAlignment="Top" Height="28" Width="117"/>
         <CheckBox x:Name="bossRandomizerCheck" Content="" HorizontalAlignment="Left" Margin="177,105,0,0" VerticalAlignment="Top" Width="17" />
         <Label Content="Randomize monsters :" HorizontalAlignment="Left" Margin="37,127,0,0" VerticalAlignment="Top" Height="28" Width="135"/>
-        <CheckBox x:Name="monsterRandomizerCheck" Content="" HorizontalAlignment="Left" Margin="177,133,0,0" VerticalAlignment="Top" Width="17" />
+        <CheckBox x:Name="monsterRandomizerCheck" Content="" HorizontalAlignment="Left" Margin="177,133,0,0" VerticalAlignment="Top" Width="17" IsEnabled="False" />
         <Label Content="Power blocker :" HorizontalAlignment="Left" Margin="37,157,0,0" VerticalAlignment="Top" Height="28" Width="135"/>
-        <CheckBox x:Name="powerBlockerCheck" Content="" HorizontalAlignment="Left" Margin="177,163,0,0" VerticalAlignment="Top" Width="17" Checked="powerBlockerCheck_Checked" Unchecked="powerBlockerCheck_Unchecked" />
-        <Button x:Name="GenerateButton_Copy" Content="Go to curse" HorizontalAlignment="Left" Margin="366,201,0,0" VerticalAlignment="Top" Click="GoToCurseButton_Click" Height="20" Width="70"/>
+        <CheckBox x:Name="powerBlockerCheck" Content="" HorizontalAlignment="Left" Margin="177,163,0,0" VerticalAlignment="Top" Width="17" Checked="powerBlockerCheck_Checked" Unchecked="powerBlockerCheck_Unchecked" IsEnabled="False" />
+        <Button x:Name="GenerateButton_Copy" Content="Go to curse" HorizontalAlignment="Left" Margin="366,201,0,0" VerticalAlignment="Top" Click="GoToCurseButton_Click" Height="20" Width="70" IsEnabled="False"/>
         <Label Content="Randomize levels :" HorizontalAlignment="Left" Margin="37,190,0,0" VerticalAlignment="Top" Height="28" Width="135"/>
         <CheckBox x:Name="levelRandomizerCheck" Content="" HorizontalAlignment="Left" Margin="177,196,0,0" VerticalAlignment="Top" Width="17"/>
 

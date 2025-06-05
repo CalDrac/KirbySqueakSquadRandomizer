@@ -1,0 +1,1082 @@
+[
+  /*{
+    "levelId": "",
+    "name": "",
+    "adress": "",
+    "itemId": "",
+    "progressionType": "",
+    "requiredPowers": []
+  },*/
+  {
+    "name": "Beginning Notes",
+    "levelId": "1_2",
+    "newLevelId": "1_2",
+    "adress": "107EA5D",
+    "itemId": "34",
+    "progressionType": "filler",
+    "RequiredPowers": []
+
+  },
+  {
+    "name": "Fire scroll",
+    "levelId": "1_3",
+    "newLevelId": "1_3",
+    "adress": "10A748D",
+    "itemId": "1C",
+    "progressionType": "useful",
+    "RequiredPowers": [ "Animal" ]
+  },
+  {
+    "name": "Sound player",
+    "adress": "10AC09D",
+    "itemId": "05",
+    "progressionType": "filler",
+    "levelId": "1_3",
+    "newLevelId": "1_3",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Green",
+    "adress": "10D085D",
+    "itemId": "48",
+    "progressionType": "filler",
+    "levelId": "1_4",
+    "newLevelId": "1_4",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_1",
+    "adress": "10D50CD",
+    "itemId": "64",
+    "levelId": "1_4",
+    "newLevelId": "1_4",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Prism Plains key",
+    "adress": "10D9C2D",
+    "itemId": "0E",
+    "progressionType": "useful",
+    "levelId": "1_4",
+    "newLevelId": "1_4",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Copy palette 1",
+    "adress": "10E9C8D",
+    "itemId": "58",
+    "levelId": "1_5",
+    "newLevelId": "1_5",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "King DeDeDe badge",
+    "adress": "114162D",
+    "itemId": "3E",
+    "progressionType": "filler",
+    "levelId": "1_7",
+    "newLevelId": "1_7",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_2",
+    "adress": "112A01D",
+    "itemId": "71",
+    "progressionType": "filler",
+    "levelId": "1_6",
+    "newLevelId": "1_6",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Vitality half_1",
+    "adress": "1131CAD",
+    "itemId": "06",
+    "progressionType": "useful",
+    "levelId": "1_6",
+    "newLevelId": "1_6",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Animal scroll",
+    "adress": "146C45D",
+    "itemId": "30",
+    "progressionType": "useful",
+    "levelId": "2_1",
+    "newLevelId": "2_1",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Kirby's Sounds",
+    "adress": "14732AD",
+    "itemId": "3A",
+    "progressionType": "filler",
+    "levelId": "2_1",
+    "newLevelId": "2_1",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Star seal 1",
+    "adress": "147836D",
+    "itemId": "00",
+    "progressionType": "progression",
+    "levelId": "2_1",
+    "newLevelId": "2_1",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Citrus",
+    "adress": "14D941D",
+    "itemId": "55",
+    "progressionType": "filler",
+    "levelId": "2_2",
+    "newLevelId": "2_2",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ghost medal_1",
+    "adress": "14DC85D",
+    "itemId": "15",
+    "progressionType": "filler",
+    "levelId": "2_2",
+    "newLevelId": "2_2",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Wheel scroll",
+    "adress": "1535B7D",
+    "itemId": "27",
+    "progressionType": "useful",
+    "levelId": "2_3",
+    "newLevelId": "2_3",
+    "RequiredPowers": [ "Fire", "Wheel", "Metal" ]
+  },
+  {
+    "name": "Copy palette 2",
+    "adress": "153B25D",
+    "itemId": "5C",
+    "progressionType": "filler",
+    "levelId": "2_3",
+    "newLevelId": "2_3",
+    "RequiredPowers": [ "Bubble", "Fire", "Ice", "UFO", "Beam", "Spark", "Magic", "Fighter", "Bomb", "Sword" ]
+  },
+  {
+    "name": "Graphic piece_3",
+    "adress": "15448CD",
+    "itemId": "6F",
+    "progressionType": "filler",
+    "levelId": "2_3",
+    "newLevelId": "2_3",
+    "RequiredPowers": [ "Animal" ]
+  },
+  {
+    "name": "Cutter scroll",
+    "adress": "15A827D",
+    "itemId": "24",
+    "progressionType": "useful",
+    "levelId": "2_4",
+    "newLevelId": "2_4",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Beam scroll",
+    "adress": "162622D",
+    "itemId": "1F",
+    "progressionType": "useful",
+    "levelId": "2_5",
+    "newLevelId": "2_5",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_4",
+    "adress": "162985D",
+    "itemId": "6B",
+    "progressionType": "filler",
+    "levelId": "2_5",
+    "newLevelId": "2_5",
+    "RequiredPowers": [ "Metal", "Hammer", "UFO", "Fire", "Throw" ]
+  },
+  {
+    "name": "Nature Notch key",
+    "adress": "16336FD",
+    "itemId": "0F",
+    "progressionType": "useful",
+    "levelId": "2_5",
+    "newLevelId": "2_5",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Mrs Moley badge",
+    "adress": "1679E2D",
+    "itemId": "3F",
+    "progressionType": "filler",
+    "levelId": "2_7",
+    "newLevelId": "2_7",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_5",
+    "adress": "165981D",
+    "itemId": "6D",
+    "progressionType": "filler",
+    "levelId": "2_6",
+    "newLevelId": "2_6",
+    "RequiredPowers": [ "Hammer", "Metal" ]
+  },
+  {
+    "name": "Secret Map_1",
+    "adress": "1665C2D",
+    "itemId": "5D",
+    "progressionType": "filler",
+    "levelId": "2_6",
+    "newLevelId": "2_6",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Vitality half_2",
+    "adress": "16696CD",
+    "itemId": "07",
+    "levelId": "2_6",
+    "newLevelId": "2_6",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_6",
+    "adress": "17AC6ED",
+    "itemId": "72",
+    "progressionType": "filler",
+    "levelId": "3_1",
+    "newLevelId": "3_1",
+    "RequiredPowers": [ "Bubble", "Fire", "UFO", "Beam", "Spark", "Magic", "Fighter", "Bomb", "Sword", "Laser", "Hammer" ]
+  },
+  {
+    "name": "Grape",
+    "adress": "17B5A7D",
+    "itemId": "4D",
+    "progressionType": "filler",
+    "levelId": "3_1",
+    "newLevelId": "3_1",
+    "RequiredPowers": [ "Hammer", "Fire", "UFO", "Throw" ]
+  },
+  {
+    "name": "Spark scroll",
+    "adress": "17B98CD",
+    "itemId": "1E",
+    "progressionType": "useful",
+    "levelId": "3_1",
+    "newLevelId": "3_1",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Familiar Notes",
+    "adress": "17DAA1D",
+    "itemId": "38",
+    "progressionType": "filler",
+    "levelId": "3_2",
+    "newLevelId": "3_2",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Star seal 2",
+    "adress": "17E5C8D",
+    "itemId": "01",
+    "progressionType": "progression",
+    "levelId": "3_2",
+    "newLevelId": "3_2",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_7",
+    "adress": "1819A3D",
+    "itemId": "6A",
+    "progressionType": "filler",
+    "levelId": "3_3",
+    "newLevelId": "3_3",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Secret Map_2",
+    "adress": "1820E2D",
+    "itemId": "5E",
+    "progressionType": "filler",
+    "levelId": "3_3",
+    "newLevelId": "3_3",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ghost medal_2",
+    "adress": "18244BD",
+    "itemId": "16",
+    "progressionType": "filler",
+    "levelId": "3_3",
+    "newLevelId": "3_3",
+    "RequiredPowers": [ "Bomb", "Cutter", "Laser", "UFO" ]
+  },
+  {
+    "name": "Lavender",
+    "adress": "184821D",
+    "itemId": "57",
+    "progressionType": "filler",
+    "levelId": "3_4",
+    "newLevelId": "3_4",
+    "RequiredPowers": [ "Fire", "Hammer" ]
+  },
+  {
+    "name": "HiJump scroll",
+    "levelId": "3_4",
+    "newLevelId": "3_4",
+    "adress": "18544BD",
+    "itemId": "28",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Cushy Cloud key",
+    "levelId": "3_4",
+    "newLevelId": "3_4",
+    "adress": "185A1ED",
+    "itemId": "10",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Tornado scroll",
+    "levelId": "3_5",
+    "newLevelId": "3_5",
+    "adress": "186AE1D",
+    "itemId": "20",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Mecha-Kracko badge",
+    "levelId": "3_7",
+    "newLevelId": "3_7",
+    "adress": "18C803D",
+    "itemId": "40",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Orange",
+    "levelId": "3_6",
+    "newLevelId": "3_6",
+    "adress": "189F72D",
+    "itemId": "08",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Sword", "Beam", "UFO", "Magic" ]
+  },
+  {
+    "name": "Graphic piece_8",
+    "levelId": "3_6",
+    "newLevelId": "3_6",
+    "adress": "18AA61D",
+    "itemId": "4F",
+    "progressionType": "filler",
+    "RequiredPowers": [] //Any ability ?
+  },
+  {
+    "name": "Vitality half_3",
+    "levelId": "3_6",
+    "newLevelId": "3_6",
+    "adress": "18ADE6D",
+    "itemId": "75",
+    "progressionType": "useful",
+    "RequiredPowers": [] //Any ability ?
+  },
+  {
+    "name": "Graphic piece_9",
+    "levelId": "4_1",
+    "newLevelId": "4_1",
+    "adress": "18CA66D",
+    "itemId": "67",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Cutter", "Bomb" ]
+  },
+  {
+    "name": "Shadow",
+    "levelId": "4_1",
+    "newLevelId": "4_1",
+    "adress": "18DEECD",
+    "itemId": "53",
+    "progressionType": "filler",
+    "RequiredPowers": [ "HiJump", "Laser" ] //Tornado ?
+  },
+  {
+    "name": "Bubble scroll",
+    "levelId": "4_1",
+    "newLevelId": "4_1",
+    "adress": "18E7CBD",
+    "itemId": "31",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Yellow",
+    "levelId": "4_2",
+    "newLevelId": "4_2",
+    "adress": "19022AD",
+    "itemId": "46",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Star seal 3",
+    "levelId": "4_2",
+    "newLevelId": "4_2",
+    "adress": "1906C9D",
+    "itemId": "02",
+    "progressionType": "progression",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Metal scroll",
+    "adress": "194471D",
+    "itemId": "32",
+    "progressionType": "useful",
+    "levelId": "4_3",
+    "newLevelId": "4_3",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Copy palette 3",
+    "levelId": "4_3",
+    "newLevelId": "4_3",
+    "adress": "195BA7D",
+    "itemId": "5A",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Vitality half_4",
+    "levelId": "4_3",
+    "newLevelId": "4_3",
+    "adress": "19607BD",
+    "itemId": "09",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_10",
+    "levelId": "4_4",
+    "newLevelId": "4_4",
+    "adress": "199904D",
+    "itemId": "76",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Secret Map_3",
+    "levelId": "4_4",
+    "newLevelId": "4_4",
+    "adress": "198BC6D",
+    "itemId": "5F",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Fire", "Hammer" ]
+  },
+  {
+    "name": "Jam Jungle key",
+    "levelId": "4_4",
+    "newLevelId": "4_4",
+    "adress": "199903D",
+    "itemId": "11",
+    "progressionType": "useful",
+    "RequiredPowers": [ "Fire", "Hammer" ]
+  },
+  {
+    "name": "Laser scroll",
+    "levelId": "4_5",
+    "newLevelId": "4_5",
+    "adress": "19A321D",
+    "itemId": "25",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Yadgaine badge",
+    "levelId": "4_7",
+    "newLevelId": "4_7",
+    "adress": "1A0D02D",
+    "itemId": "41",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ice scroll",
+    "levelId": "4_6",
+    "newLevelId": "4_6",
+    "adress": "19F18AD",
+    "itemId": "1D",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Party Notes",
+    "levelId": "4_6",
+    "newLevelId": "4_6",
+    "adress": "19F56AD",
+    "itemId": "33",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ghost medal_3",
+    "levelId": "4_6",
+    "newLevelId": "4_6",
+    "adress": "1A004FD",
+    "itemId": "17",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Parasol scroll",
+    "levelId": "5_1",
+    "newLevelId": "5_1",
+    "adress": "1A21C9D",
+    "itemId": "3B",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Enemy Sounds",
+    "levelId": "5_1",
+    "newLevelId": "5_1",
+    "adress": "1A264ED",
+    "itemId": "21",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Star seal 4",
+    "levelId": "5_1",
+    "newLevelId": "5_1",
+    "adress": "1A2B10D",
+    "itemId": "03",
+    "progressionType": "progression",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ivory",
+    "levelId": "5_2",
+    "newLevelId": "5_2",
+    "adress": "1A46C7D",
+    "itemId": "54",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Fire", "Ice", "Beam", "UFO" ]
+  },
+  {
+    "name": "Graphic piece_11",
+    "levelId": "5_2",
+    "newLevelId": "5_2",
+    "adress": "1A4F6BD",
+    "itemId": "73",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Hammer scroll",
+    "levelId": "5_2",
+    "newLevelId": "5_2",
+    "adress": "1A54F5D",
+    "itemId": "22",
+    "progressionType": "useful",
+    "RequiredPowers": [ "Beam", "UFO" ]
+  },
+  {
+    "name": "Graphic piece_12",
+    "levelId": "5_3",
+    "newLevelId": "5_3",
+    "adress": "1A6AE5D",
+    "itemId": "69",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Hammer", "Metal" ]
+  },
+  {
+    "name": "Ninja scroll",
+    "levelId": "5_3",
+    "newLevelId": "5_3",
+    "adress": "1A6AE8D",
+    "itemId": "2C",
+    "progressionType": "useful",
+    "RequiredPowers": [ "Hammer", "Fire", "UFO", "Throw" ]
+  },
+  {
+    "name": "Vitality half_5",
+    "levelId": "5_3",
+    "newLevelId": "5_3",
+    "adress": "1A6AE7D",
+    "itemId": "0A",
+    "progressionType": "useful",
+    "RequiredPowers": [ "Metal" ]
+  },
+  {
+    "name": "Secret Map_4",
+    "levelId": "5_4",
+    "newLevelId": "5_4",
+    "adress": "1AB462D",
+    "itemId": "60",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Red",
+    "levelId": "5_4",
+    "newLevelId": "5_4",
+    "adress": "1AB769D",
+    "itemId": "47",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Vocal Volcano key",
+    "levelId": "5_4",
+    "newLevelId": "5_4",
+    "adress": "1ABC50D",
+    "itemId": "12",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Bohboh badge",
+    "levelId": "5_7",
+    "newLevelId": "5_7",
+    "adress": "1AFB06D",
+    "itemId": "42",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Copy palette 4",
+    "levelId": "5_6",
+    "newLevelId": "5_6",
+    "adress": "1AD8A2D",
+    "itemId": "2A",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Metal", "Hammer" ]
+  },
+  {
+    "name": "Sleep scroll",
+    "levelId": "5_6",
+    "newLevelId": "5_6",
+    "adress": "1ADCC2D",
+    "itemId": "59",
+    "progressionType": "useful",
+    "RequiredPowers": [] // ???
+  },
+  {
+    "name": "Ghost medal_4",
+    "levelId": "5_6",
+    "newLevelId": "5_6",
+    "adress": "1AE646D",
+    "itemId": "18",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Sound Effects",
+    "levelId": "6_1",
+    "newLevelId": "6_1",
+    "adress": "1B2B2ED",
+    "itemId": "74",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Wheel", "Animal" ]
+  },
+  {
+    "name": "Graphic piece_13",
+    "levelId": "6_1",
+    "newLevelId": "6_1",
+    "adress": "1B3681D",
+    "itemId": "3C",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Sword scroll",
+    "levelId": "6_1",
+    "newLevelId": "6_1",
+    "adress": "1B3D85D",
+    "itemId": "2B",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Snow",
+    "levelId": "6_2",
+    "newLevelId": "6_2",
+    "adress": "1B5D61D",
+    "itemId": "49",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Star seal 5",
+    "levelId": "6_2",
+    "newLevelId": "6_2",
+    "adress": "1B65FCD",
+    "itemId": "04",
+    "progressionType": "progression",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Fighter scroll",
+    "levelId": "6_3",
+    "newLevelId": "6_3",
+    "adress": "1B932CD",
+    "itemId": "2D",
+    "progressionType": "useful",
+    "RequiredPowers": [ "Hammer", "Metal" ]
+  },
+  {
+    "name": "Graphic piece_14",
+    "levelId": "6_3",
+    "newLevelId": "6_3",
+    "adress": "1BA6E9E",
+    "itemId": "6E",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Vitality half_6",
+    "levelId": "6_3",
+    "newLevelId": "6_3",
+    "adress": "1BAED7D",
+    "itemId": "0B",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Happy Notes",
+    "levelId": "6_4",
+    "newLevelId": "6_4",
+    "adress": "1BB3ADD",
+    "itemId": "35",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Chalk",
+    "levelId": "6_4",
+    "newLevelId": "6_4",
+    "adress": "1BCEC5D",
+    "itemId": "52",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Cutter", "Sword", "Magic", "Cupid", "Ninja" ]
+  },
+  {
+    "name": "Ice Island key",
+    "levelId": "6_4",
+    "newLevelId": "6_4",
+    "adress": "1BDB2DD",
+    "itemId": "13",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_15",
+    "levelId": "6_5",
+    "newLevelId": "6_5",
+    "adress": "1BF2C2D",
+    "itemId": "66",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Cupid scroll",
+    "levelId": "6_5",
+    "newLevelId": "6_5",
+    "adress": "1C03C2D",
+    "itemId": "23",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Copy palette 5",
+    "levelId": "6_5",
+    "newLevelId": "6_5",
+    "RequiredPowers": [],
+    "adress": "1BFB42D",
+    "itemId": "5B",
+    "progressionType": "useful"
+  },
+  {
+    "name": "Daroach badge",
+    "levelId": "6_7",
+    "newLevelId": "6_7",
+    "adress": "1C4782D",
+    "itemId": "43",
+    "progressionType": "progression",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Cherry",
+    "levelId": "6_6",
+    "newLevelId": "6_6",
+    "adress": "1C150ED",
+    "itemId": "51",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Wheel" ]
+  },
+  {
+    "name": "Secret Map_5",
+    "levelId": "6_6",
+    "newLevelId": "6_6",
+    "adress": "1C3123D",
+    "itemId": "61",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ghost medal_5",
+    "levelId": "6_6",
+    "newLevelId": "6_6",
+    "adress": "1C34C2D",
+    "itemId": "19",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "White",
+    "levelId": "7_1",
+    "newLevelId": "7_1",
+    "adress": "1C678BD",
+    "itemId": "56",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Secret Sounds",
+    "levelId": "7_1",
+    "newLevelId": "7_1",
+    "adress": "1C5BE4D",
+    "itemId": "3D",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Throw scroll",
+    "levelId": "7_1",
+    "newLevelId": "7_1",
+    "adress": "1C6BC7D",
+    "itemId": "2E",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Sapphire",
+    "levelId": "7_2",
+    "newLevelId": "7_2",
+    "adress": "1C8EE8D",
+    "itemId": "4C",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Fire" ]
+  },
+  {
+    "name": "Graphic piece_16",
+    "levelId": "7_2",
+    "newLevelId": "7_2",
+    "adress": "1C996CD",
+    "itemId": "6C",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Fire" ] //Hammer
+  },
+  {
+    "name": "Ghost medal_6",
+    "levelId": "7_2",
+    "newLevelId": "7_2",
+    "adress": "1C9DE2D",
+    "itemId": "1A",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Fire", "Hammer" ]
+  },
+  {
+    "name": "Graphic piece_17",
+    "levelId": "7_3",
+    "newLevelId": "7_3",
+    "adress": "1CB04CD",
+    "itemId": "36",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Fire" ]
+  },
+  {
+    "name": "Spunky Notes",
+    "levelId": "7_3",
+    "newLevelId": "7_3",
+    "adress": "1CBB01D",
+    "itemId": "65",
+    "progressionType": "useful",
+    "RequiredPowers": [ "Fire", "Beam", "Bomb", "Sword", "UFO", "Ice", "Bubble", "Magic" ]
+  },
+  {
+    "name": "Bomb scroll",
+    "levelId": "7_3",
+    "newLevelId": "7_3",
+    "adress": "1CB5D5D",
+    "itemId": "26",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ocean",
+    "levelId": "7_4",
+    "newLevelId": "7_4",
+    "adress": "1CDA49D",
+    "itemId": "4B",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Magic scroll",
+    "levelId": "7_4",
+    "newLevelId": "7_4",
+    "adress": "1CE68FD",
+    "itemId": "2F",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Secret Sea key",
+    "levelId": "7_4",
+    "newLevelId": "7_4",
+    "adress": "1CEB8BD",
+    "itemId": "14",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Chocolate",
+    "levelId": "7_5",
+    "newLevelId": "7_5",
+    "adress": "1CFBA2D",
+    "itemId": "50",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Wheel" ]
+  },
+  {
+    "name": "Meta Knight badge",
+    "levelId": "7_7",
+    "newLevelId": "7_7",
+    "adress": "1D91E2D",
+    "itemId": "44",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Secret Map_6",
+    "levelId": "7_6",
+    "newLevelId": "7_6",
+    "adress": "1D8CC2D",
+    "itemId": "62",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_18",
+    "levelId": "7_6",
+    "newLevelId": "7_6",
+    "adress": "1D5D01D",
+    "itemId": "68",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Vitality half_7",
+    "levelId": "7_6",
+    "newLevelId": "7_6",
+    "adress": "1D6006D",
+    "itemId": "0C",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Graphic piece_19",
+    "levelId": "8_1",
+    "newLevelId": "8_1",
+    "adress": "1DF421D",
+    "itemId": "70",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Fire", "Metal", "Hammer" ]
+  },
+  {
+    "name": "Battle Notes",
+    "levelId": "8_1",
+    "newLevelId": "8_1",
+    "adress": "1DBA88D",
+    "itemId": "37",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "UFO scroll",
+    "levelId": "8_1",
+    "newLevelId": "8_1",
+    "adress": "1DCA13D",
+    "itemId": "29",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Emerald",
+    "levelId": "8_1",
+    "newLevelId": "8_1",
+    "adress": "1E1D42D",
+    "itemId": "4E",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Secret Map_7",
+    "levelId": "8_1",
+    "newLevelId": "8_1",
+    "adress": "1E28C7D",
+    "itemId": "63",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Ghost medal_7",
+    "levelId": "8_2",
+    "newLevelId": "8_2",
+    "adress": "1E2C65D",
+    "itemId": "1B",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Carbon",
+    "levelId": "8_3",
+    "newLevelId": "8_3",
+    "adress": "1E5A8AD",
+    "itemId": "4A",
+    "progressionType": "filler",
+    "RequiredPowers": [ "Animal" ]
+  },
+  {
+    "name": "Secret Notes",
+    "levelId": "8_3",
+    "newLevelId": "8_3",
+    "adress": "1E77A1D",
+    "itemId": "39",
+    "progressionType": "filler",
+    "RequiredPowers": [ "UFO", "Fire", "Hammer" ]
+  },
+  {
+    "name": "Vitality half_8",
+    "levelId": "8_3",
+    "newLevelId": "8_3",
+    "adress": "1E3D88D",
+    "itemId": "0D",
+    "progressionType": "useful",
+    "RequiredPowers": []
+  },
+  {
+    "name": "Dark Nebula badge",
+    "levelId": "8_7",
+    "newLevelId": "8_7",
+    "adress": "1E98C2D",
+    "itemId": "45",
+    "progressionType": "filler",
+    "RequiredPowers": []
+  }
+]

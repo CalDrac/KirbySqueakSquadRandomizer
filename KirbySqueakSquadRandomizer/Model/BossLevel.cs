@@ -8,9 +8,8 @@ namespace KirbySqueakSquadRandomizer.Model
 {
     internal class BossLevel
     {
-        public string name;
         public string adress;
         public string dataBlock;
-        public string nodeId;
+        public string id;
     }
 }
