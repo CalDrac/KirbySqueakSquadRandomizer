@@ -291,42 +291,42 @@
     "world": "7",
     "stage": "1",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254213"
   },
   {
     "id": "7_2",
     "world": "7",
     "stage": "2",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254312"
   },
   {
     "id": "7_3",
     "world": "7",
     "stage": "3",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254429"
   },
   {
     "id": "7_4",
     "world": "7",
     "stage": "4",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254510"
   },
   {
     "id": "7_5",
     "world": "7",
     "stage": "5",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "25460F"
   },
   {
     "id": "7_6",
     "world": "7",
     "stage": "6",
     "requiredItems": [ "00", "01", "02", "03", "04", "43", "14" ], //Key Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254726"
   },
   {
     "id": "7_7",
@@ -340,21 +340,21 @@
     "world": "8",
     "stage": "1",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254916"
   },
   {
     "id": "8_2",
     "world": "8",
     "stage": "2",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254AED"
   },
   {
     "id": "8_3",
     "world": "8",
     "stage": "3",
     "requiredItems": [ "00", "01", "02", "03", "04", "43" ], //Star seal 1,Star seal 2,Star seal 3,Star seal 4,Star seal 5, Daroach badge
-    "adress": ""
+    "adress": "254C04"
   },
   {
     "id": "8_7",

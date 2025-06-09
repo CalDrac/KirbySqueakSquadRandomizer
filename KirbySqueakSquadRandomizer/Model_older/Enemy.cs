@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KirbySqueakSquadRandomizer.Model
+namespace KirbySqueakSquadRandomizer.Model_older
 {
-    internal class EnemyLocation
+    internal class Enemy
     {
+        public string name;
         public string monsterId;
-        public string adress;
+        public string power;
     }
 }

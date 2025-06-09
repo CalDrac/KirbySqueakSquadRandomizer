@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KirbySqueakSquadRandomizer.Data
+namespace KirbySqueakSquadRandomizer.Model_older
 {
     enum Powers
     {

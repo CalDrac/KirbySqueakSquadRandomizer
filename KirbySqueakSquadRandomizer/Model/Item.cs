@@ -3,31 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web;
 
 namespace KirbySqueakSquadRandomizer.Model
 {
-    class Item
+    internal class ItemV2
     {
-        public string Name { get; set; }
-        public string Adress { get; set; }
-        public string ItemId { get; set; }
-        public string ProgressionType { get; set; }
-        public string LevelId { get; set; }
-        public string NewLevelId { get; set; }
-        public String[] RequiredPowers { get; set; }
+        public string name { get; set; }
+        public string itemId { get; set; }
+        public string adress { get; set; }
+        public List<String> requiredPowers { get; set; }
 
-        public Item(Item item)
+        public ItemV2(string name,string itemId,string adress)
         {
-            Name = item.Name;
-            Adress = item.Adress;
-            ItemId = item.ItemId;
-            ProgressionType = item.ProgressionType;
-            LevelId = item.LevelId;
-            NewLevelId = item.NewLevelId;
-            RequiredPowers = item.RequiredPowers;
+            this.name = name;
+            this.itemId = itemId;
+            this.adress = adress;
+            this.requiredPowers = new List<String>();
         }
-
-        public Item() { }
     }
 }
