@@ -20,5 +20,13 @@ namespace KirbySqueakSquadRandomizer.Model
             this.adress = adress;
             this.requiredPowers = new List<String>();
         }
+
+        public ItemV2 (ItemV2 source)
+        {
+            this.name = source.name;
+            this.itemId = source.itemId;
+            this.adress = source.adress;
+            this.requiredPowers = new List<String>();
+        }
     }
 }

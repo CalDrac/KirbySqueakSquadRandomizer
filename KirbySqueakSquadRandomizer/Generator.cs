@@ -35,7 +35,7 @@ namespace KirbySqueakSquadRandomizer
         public static List<ItemV2> itemsV2;
         public static List<Stage> stages;
 
-        
+
         public Generator()
         {
 
@@ -68,18 +68,20 @@ namespace KirbySqueakSquadRandomizer
             shuffledItemList = shuffledItemList.OrderBy(x => Random.Shared.Next()).ToList();
             List<Stage> stagesWithRequiredItems = stages.FindAll(x => x.requiredItems.Count != 0);
             List<ItemV2> requiredItems = new List<ItemV2>();
-            foreach(Stage stage in stagesWithRequiredItems)
+            foreach (Stage stage in stagesWithRequiredItems)
             {
-                foreach(ItemV2 item in stage.requiredItems)
+                foreach (ItemV2 item in stage.requiredItems)
                     if (!requiredItems.Contains(item))
                     {
                         requiredItems.Add(item);
                     }
             }
-
+            var alreadyTakenItems = new List<ItemV2>();
             foreach (ItemV2 item in requiredItems)
             {
-                //Get item list where you can put the required item
+                
+                
+                ////Get item list where you can put the required item
                 List<Stage> stagesWhereRequiredItemIsNotRequired = stages.FindAll(x => !x.requiredItems.Contains(item));
                 List<ItemV2> itemsThatCanBeReplacedWithRequiredItem = new List<ItemV2>();
                 foreach (Stage stage in stagesWhereRequiredItemIsNotRequired)
@@ -87,29 +89,36 @@ namespace KirbySqueakSquadRandomizer
                     itemsThatCanBeReplacedWithRequiredItem.AddRange(stage.items);
                 }
                 itemsThatCanBeReplacedWithRequiredItem = itemsThatCanBeReplacedWithRequiredItem.OrderBy(x => Random.Shared.Next()).ToList();
-                ItemV2 itemToReplace = itemsThatCanBeReplacedWithRequiredItem[0];
+                foreach (ItemV2 alreadyTakenItem in alreadyTakenItems)
+                {
+                    itemsThatCanBeReplacedWithRequiredItem.Remove(alreadyTakenItem);
+                }
+                ItemV2 itemToReplace = new ItemV2(itemsThatCanBeReplacedWithRequiredItem[0]);
 
-                var stageItem = stages.Find(x => x.items.Contains(itemToReplace));
+                var stageItem = stages.Find(x => x.items.Contains(itemsThatCanBeReplacedWithRequiredItem[0]));
 
-                spoilerLog += "[" + stageItem.world + "_" + stageItem.number + "]" + itemToReplace.name.PadRight(20) + "|" + item.name+ "\n";
+                spoilerLog += "[" + stageItem.world + "_" + stageItem.number + "]" + itemToReplace.name.PadRight(20) + "|" + item.name + "\n";
 
-                var removedFromItems = itemsV2.Remove(itemsV2.Find(it=>it.name == itemToReplace.name));
+
+                var removedFromItems = itemsV2.Remove(itemsV2.First(it => it.adress == itemToReplace.adress));
+                alreadyTakenItems.Add(itemsThatCanBeReplacedWithRequiredItem[0]);
+                var removedFromShuffle = shuffledItemList.Remove(shuffledItemList.First(it=>it.adress == item.adress));
                 itemToReplace.name = item.name;
                 itemToReplace.itemId = item.itemId;
                 newItemList.Add(itemToReplace);
-                var itemToDel = shuffledItemList.Find(it => it.name == item.name);
-                var removedFromShuffle = shuffledItemList.Remove(itemToDel);
+                //var itemToDel = shuffledItemList.Find(it => it.name == item.name);
+                //var removedFromShuffle = shuffledItemList.Remove(itemToDel);
             }
 
             foreach (ItemV2 item in shuffledItemList)
             {
-                var itemToReplace = itemsV2[0];
-                spoilerLog += itemsV2[0].name.PadRight(20) + "|" + item.name + "\n";
+                var itemToReplace = new ItemV2(itemsV2[0]);
                 itemsV2.Remove(itemsV2[0]);
+                spoilerLog += itemToReplace.name.PadRight(20) + "|" + item.name + "\n";
                 itemToReplace.name = item.name;
                 itemToReplace.itemId = item.itemId;
                 newItemList.Add(itemToReplace);
-                
+
             }
 
             byte[] otherData = File.ReadAllBytes(opt.path);
@@ -213,14 +222,14 @@ namespace KirbySqueakSquadRandomizer
             var stage8_7 = new Stage(8, 7, "", new List<ItemV2>() { items[118] }, new List<ItemV2>() { items[12], items[30], items[46], items[60], items[78], items[88] });
 
             stages = fillListStages(
-                stage1_1, stage1_2, stage1_3,stage1_4,stage1_5,stage1_6,stage1_7,
-                stage2_1, stage2_2, stage2_3,stage2_4,stage2_5,stage2_6,stage2_7,
-                stage3_1, stage3_2, stage3_3,stage3_4,stage3_5,stage3_6,stage3_7,
-                stage4_1, stage4_2, stage4_3,stage4_4,stage4_5,stage4_6,stage4_7,
-                stage5_1, stage5_2, stage5_3,stage5_4,stage5_6,stage5_7,
-                stage6_1, stage6_2, stage6_3,stage6_4,stage6_5,stage6_6,stage6_7,
-                stage7_1, stage7_2, stage7_3,stage7_4,stage7_5,stage7_6,stage7_7,
-                stage8_1, stage8_2, stage8_3,stage8_7
+                stage1_1, stage1_2, stage1_3, stage1_4, stage1_5, stage1_6, stage1_7,
+                stage2_1, stage2_2, stage2_3, stage2_4, stage2_5, stage2_6, stage2_7,
+                stage3_1, stage3_2, stage3_3, stage3_4, stage3_5, stage3_6, stage3_7,
+                stage4_1, stage4_2, stage4_3, stage4_4, stage4_5, stage4_6, stage4_7,
+                stage5_1, stage5_2, stage5_3, stage5_4, stage5_6, stage5_7,
+                stage6_1, stage6_2, stage6_3, stage6_4, stage6_5, stage6_6, stage6_7,
+                stage7_1, stage7_2, stage7_3, stage7_4, stage7_5, stage7_6, stage7_7,
+                stage8_1, stage8_2, stage8_3, stage8_7
             );
         }
 
